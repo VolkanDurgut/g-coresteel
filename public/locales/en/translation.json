@@ -102,6 +102,73 @@
     "section_subtitle": "From design to deployment, we provide complete transformer solutions that power industries worldwide",
     "section_title": "Our Comprehensive Transformer Solutions & Services"
   },
+  "technical_specs": {
+    "section_title": "Our Technical Capabilities",
+    "section_subtitle": "Detailed information about our production capacity, technological infrastructure, and quality standards.",
+    "key_advantage": "Key Advantage",
+    "tabs": {
+      "production_capacity": {
+        "label": "Production Capacity",
+        "title": "Production Capacity and Capabilities",
+        "advantage": "Our high-volume production capacity and efficient processes enable us to meet even the most demanding project timelines.",
+        "specs": {
+          "daily_capacity": "Daily Capacity",
+          "daily_capacity_value": "Up to 5 MVA",
+          "power_range": "Power Range",
+          "power_range_value": "1-100 MVA",
+          "lead_time": "Lead Time",
+          "lead_time_value": "4-8 Weeks",
+          "testing_rate": "Testing Rate",
+          "testing_rate_value": "10 Units per Day"
+        }
+      },
+      "technology_infrastructure": {
+        "label": "Technology Infrastructure",
+        "title": "Advanced Technology and Automation",
+        "advantage": "Our modern CNC park and robotic systems offer unparalleled precision and consistency in production.",
+        "specs": {
+          "cnc_park": "CNC Park",
+          "cnc_park_value": "Fully Automated Cutting & Bending",
+          "winding_systems": "Winding Systems",
+          "winding_systems_value": "High-Precision Winding",
+          "design_simulation": "Design & Simulation",
+          "design_simulation_value": "3D Modeling and Analysis",
+          "quality_control": "Quality Control",
+          "quality_control_value": "Automated Optical Inspection"
+        }
+      },
+      "material_quality": {
+        "label": "Material Quality",
+        "title": "Superior Quality Materials",
+        "advantage": "By using only the highest quality, certified materials, we guarantee the longevity and reliability of our transformers.",
+        "specs": {
+          "silicon_steel": "Silicon Steel",
+          "silicon_steel_value": "M0/M1 Grade, Low Loss",
+          "copper_windings": "Copper Windings",
+          "copper_windings_value": "99.9% Pure Electrolytic Copper",
+          "insulation_materials": "Insulation Materials",
+          "insulation_materials_value": "Thermal Class H (180°C)",
+          "environmental_coatings": "Environmental Coatings",
+          "environmental_coatings_value": "Corrosion-Resistant Paint"
+        }
+      },
+      "testing_standards": {
+        "label": "Testing Standards",
+        "title": "Comprehensive Testing and Assurance",
+        "advantage": "Every transformer undergoes rigorous testing procedures that exceed international standards, ensuring flawless performance in the field.",
+        "specs": {
+          "iec_standards": "IEC Standards",
+          "iec_standards_value": "Full Compliance with IEC 60076",
+          "routine_procedures": "Routine Procedures",
+          "routine_procedures_value": "15+ Tests on Every Unit",
+          "type_test": "Type Tests",
+          "type_test_value": "Optional KEMA/CESI Reports",
+          "reliability_testing": "Reliability Testing",
+          "reliability_testing_value": "Accelerated Aging Tests"
+        }
+      }
+    }
+  },
   "projects": {
     "section_title": "Success Stories & Reference Projects",
     "section_subtitle": "Proven excellence across diverse industries and challenging environments",
