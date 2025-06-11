@@ -11,8 +11,10 @@ import {
   ChevronRight,
   CheckCircle
 } from 'lucide-react';
+import { useTranslation } from 'react-i18next'; // Hook'u import et
 
 const Services: React.FC = () => {
+  const { t } = useTranslation(); // t fonksiyonunu kullanıma hazırla
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1
@@ -20,79 +22,16 @@ const Services: React.FC = () => {
 
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
 
-  const services = [
-    {
-      icon: Settings,
-      title: 'Core Transformer Manufacturing',
-      description: 'Custom design and production with high-efficiency technology and international quality standards.',
-      features: [
-        'Custom design and engineering',
-        'High-efficiency technology',
-        'International quality standards',
-        'Advanced cooling systems'
-      ],
-      color: 'from-primary-500 to-primary-600'
-    },
-    {
-      icon: Zap,
-      title: 'Industrial Transformer Solutions',
-      description: 'Comprehensive power and distribution transformers for specialized industrial applications.',
-      features: [
-        'Power transformers (1-100 MVA)',
-        'Distribution transformers',
-        'Specialized applications',
-        'Custom voltage ratings'
-      ],
-      color: 'from-secondary-500 to-secondary-600'
-    },
-    {
-      icon: Users,
-      title: 'Technical Consultancy',
-      description: 'Expert analysis and consulting for energy efficiency optimization and project development.',
-      features: [
-        'Energy efficiency analysis',
-        'System optimization',
-        'Project development consulting',
-        'Performance assessments'
-      ],
-      color: 'from-primary-600 to-secondary-500'
-    },
-    {
-      icon: Wrench,
-      title: 'Maintenance & Service',
-      description: 'Comprehensive maintenance programs with emergency response and performance monitoring.',
-      features: [
-        'Periodic maintenance programs',
-        'Emergency response service',
-        'Performance monitoring systems',
-        '24/7 technical support'
-      ],
-      color: 'from-secondary-600 to-primary-500'
-    },
-    {
-      icon: Award,
-      title: 'Quality Assurance',
-      description: 'Rigorous quality control with international certifications and comprehensive testing.',
-      features: [
-        'ISO 9001:2015 certified',
-        'CE conformity certified',
-        'Comprehensive testing procedures',
-        'Quality documentation'
-      ],
-      color: 'from-primary-500 to-secondary-500'
-    },
-    {
-      icon: Briefcase,
-      title: 'Project Management',
-      description: 'End-to-end project management with timeline control and 24/7 project tracking.',
-      features: [
-        'End-to-end project management',
-        'Timeline and budget control',
-        '24/7 project tracking',
-        'Regular progress reports'
-      ],
-      color: 'from-secondary-500 to-primary-600'
-    }
+  // Servis verilerini çeviri anahtarları ile yeniden tanımla
+  const serviceKeys = ['manufacturing', 'industrial', 'consultancy', 'maintenance', 'quality', 'management'];
+  const serviceIcons = [Settings, Zap, Users, Wrench, Award, Briefcase];
+  const serviceColors = [
+    'from-primary-500 to-primary-600',
+    'from-secondary-500 to-secondary-600',
+    'from-primary-600 to-secondary-500',
+    'from-secondary-600 to-primary-500',
+    'from-primary-500 to-secondary-500',
+    'from-secondary-500 to-primary-600'
   ];
 
   return (
@@ -112,7 +51,7 @@ const Services: React.FC = () => {
               animate={inView ? { opacity: 1, scale: 1 } : {}}
               transition={{ delay: 0.2 }}
             >
-              Our Comprehensive Transformer Solutions & Services
+              {t('services.section_title')}
             </motion.h2>
             <motion.p
               className="text-xl text-primary-600 font-inter max-w-3xl mx-auto"
@@ -120,13 +59,18 @@ const Services: React.FC = () => {
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.4 }}
             >
-              From design to deployment, we provide complete transformer solutions that power industries worldwide
+              {t('services.section_subtitle')}
             </motion.p>
           </motion.div>
 
           {/* Services Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {services.map((service, index) => (
+            {serviceKeys.map((key, index) => {
+              const Icon = serviceIcons[index];
+              const color = serviceColors[index];
+              const features = [1, 2, 3, 4].map(i => t(`services.cards.${key}.features.${i-1}`));
+
+              return (
               <motion.div
                 key={index}
                 className="group relative"
@@ -137,28 +81,24 @@ const Services: React.FC = () => {
                 onHoverEnd={() => setHoveredCard(null)}
               >
                 <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 p-8 h-full border border-accent-200/50 group-hover:border-secondary-500/30 overflow-hidden relative">
-                  {/* Background Gradient */}
-                  <div className={`absolute inset-0 bg-gradient-to-br ${service.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500`}></div>
+                  <div className={`absolute inset-0 bg-gradient-to-br ${color} opacity-0 group-hover:opacity-5 transition-opacity duration-500`}></div>
                   
-                  {/* Icon */}
                   <motion.div
-                    className={`inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br ${service.color} text-white mb-6 relative z-10`}
+                    className={`inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br ${color} text-white mb-6 relative z-10`}
                     whileHover={{ scale: 1.1, rotate: 5 }}
                     transition={{ type: "spring", stiffness: 400, damping: 10 }}
                   >
-                    <service.icon className="w-8 h-8" />
+                    <Icon className="w-8 h-8" />
                   </motion.div>
 
-                  {/* Content */}
                   <h3 className="text-xl font-poppins font-bold text-primary-700 mb-4 group-hover:text-secondary-600 transition-colors relative z-10">
-                    {service.title}
+                    {t(`services.cards.${key}.title`)}
                   </h3>
                   
                   <p className="text-primary-600 font-inter leading-relaxed mb-6 relative z-10">
-                    {service.description}
+                    {t(`services.cards.${key}.description`)}
                   </p>
 
-                  {/* Features */}
                   <AnimatePresence>
                     {hoveredCard === index && (
                       <motion.div
@@ -168,7 +108,7 @@ const Services: React.FC = () => {
                         exit={{ opacity: 0, height: 0 }}
                         transition={{ duration: 0.3 }}
                       >
-                        {service.features.map((feature, featureIndex) => (
+                        {features.map((feature, featureIndex) => (
                           <motion.div
                             key={featureIndex}
                             className="flex items-center gap-3"
@@ -186,25 +126,22 @@ const Services: React.FC = () => {
                     )}
                   </AnimatePresence>
 
-                  {/* CTA */}
                   <motion.button
                     className="flex items-center gap-2 text-secondary-600 font-inter font-semibold group-hover:text-secondary-500 transition-colors relative z-10"
                     whileHover={{ x: 5 }}
                   >
-                    Learn More
+                    {t('services.learn_more')}
                     <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </motion.button>
 
-                  {/* Hover Effect */}
                   <motion.div
                     className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-secondary-500 to-primary-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"
                   ></motion.div>
                 </div>
               </motion.div>
-            ))}
+            )})}
           </div>
 
-          {/* CTA Section */}
           <motion.div
             className="text-center mt-16"
             initial={{ opacity: 0, y: 30 }}
@@ -216,7 +153,7 @@ const Services: React.FC = () => {
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
             >
-              Request Custom Solution
+              {t('services.button_cta')}
               <motion.span
                 className="inline-block ml-3"
                 animate={{ x: [0, 5, 0] }}
