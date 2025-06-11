@@ -1,0 +1,574 @@
+{
+  "about": {
+    "button_cta": "Learn More About Us",
+    "description": "With our groundbreaking solutions in the energy sector, we enhance our clients' operational efficiency, optimize their costs, and contribute to a sustainable future. Our commitment to excellence drives every aspect of our manufacturing process.",
+    "image_location": "Istanbul, Turkey",
+    "image_title": "Modern Manufacturing Facility",
+    "stats_certified": "Certified",
+    "stats_quality": "Quality Rate",
+    "title": "Why G-Coresteel?",
+    "values": {
+      "innovative": {
+        "description": "Forward-thinking approaches to energy challenges",
+        "title": "Innovative Solutions"
+      },
+      "performance": {
+        "description": "Optimized efficiency and measurable results",
+        "title": "Performance-Driven"
+      },
+      "reliability": {
+        "description": "Robust systems built for demanding environments",
+        "title": "Industrial Reliability"
+      },
+      "satisfaction": {
+        "description": "Dedicated partnership and superior service",
+        "title": "Customer Satisfaction"
+      },
+      "sustainable": {
+        "description": "Environmentally conscious power solutions",
+        "title": "Sustainable Energy"
+      },
+      "technical": {
+        "description": "Cutting-edge engineering and precision manufacturing",
+        "title": "Technical Excellence"
+      }
+    }
+  },
+  "services": {
+    "button_cta": "Request Custom Solution",
+    "cards": {
+      "consultancy": {
+        "description": "Expert analysis and consulting for energy efficiency optimization and project development.",
+        "features": [
+          "Energy efficiency analysis",
+          "System optimization",
+          "Project development consulting",
+          "Performance assessments"
+        ],
+        "title": "Technical Consultancy"
+      },
+      "industrial": {
+        "description": "Comprehensive power and distribution transformers for specialized industrial applications.",
+        "features": [
+          "Power transformers (1-100 MVA)",
+          "Distribution transformers",
+          "Specialized applications",
+          "Custom voltage ratings"
+        ],
+        "title": "Industrial Transformer Solutions"
+      },
+      "maintenance": {
+        "description": "Comprehensive maintenance programs with emergency response and performance monitoring.",
+        "features": [
+          "Periodic maintenance programs",
+          "Emergency response service",
+          "Performance monitoring systems",
+          "24/7 technical support"
+        ],
+        "title": "Maintenance & Service"
+      },
+      "management": {
+        "description": "End-to-end project management with timeline control and 24/7 project tracking.",
+        "features": [
+          "End-to-end project management",
+          "Timeline and budget control",
+          "24/7 project tracking",
+          "Regular progress reports"
+        ],
+        "title": "Project Management"
+      },
+      "manufacturing": {
+        "description": "Custom design and production with high-efficiency technology and international quality standards.",
+        "features": [
+          "Custom design and engineering",
+          "High-efficiency technology",
+          "International quality standards",
+          "Advanced cooling systems"
+        ],
+        "title": "Core Transformer Manufacturing"
+      },
+      "quality": {
+        "description": "Rigorous quality control with international certifications and comprehensive testing.",
+        "features": [
+          "ISO 9001:2015 certified",
+          "CE conformity certified",
+          "Comprehensive testing procedures",
+          "Quality documentation"
+        ],
+        "title": "Quality Assurance"
+      }
+    },
+    "learn_more": "Learn More",
+    "section_subtitle": "From design to deployment, we provide complete transformer solutions that power industries worldwide",
+    "section_title": "Our Comprehensive Transformer Solutions & Services"
+  },
+  "projects": {
+    "section_title": "Success Stories & Reference Projects",
+    "section_subtitle": "Proven excellence across diverse industries and challenging environments",
+    "view_details_cta": "View Project Details",
+    "spec_labels": {
+      "power": "Power",
+      "efficiency": "Efficiency",
+      "duration": "Duration",
+      "units": "Units",
+      "solution": "Solution",
+      "savings": "Savings",
+      "scope": "Scope",
+      "warranty": "Warranty",
+      "type": "Type",
+      "connection": "Connection",
+      "integration": "Integration"
+    },
+    "cards": {
+      "power_plant": {
+        "title": "Power Plant Project",
+        "category": "Energy Generation",
+        "description": "Major power plant transformer installation with cutting-edge efficiency ratings."
+      },
+      "industrial_complex": {
+        "title": "Industrial Complex",
+        "category": "Manufacturing",
+        "description": "Comprehensive transformer solution for a large-scale industrial manufacturing facility."
+      },
+      "infrastructure": {
+        "title": "Infrastructure Project",
+        "category": "Urban Development",
+        "description": "City-wide electrical grid reinforcement with modern transformer technology."
+      },
+      "renewable_energy": {
+        "title": "Renewable Energy Integration",
+        "category": "Green Technology",
+        "description": "Solar farm transformer solutions with smart grid integration capabilities."
+      }
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "data": {
+        "mehmet_yilmaz": {
+          "quote": "Working with G-Coresteel played a critical role in the success of our project. Their technical expertise and commitment to quality exceeded our expectations.",
+          "author": "Dr. Mehmet Yılmaz",
+          "position": "Chief Engineer",
+          "company": "TurkPower Industries"
+        },
+        "sarah_johnson": {
+          "quote": "The custom transformer solutions provided by G-Coresteel have significantly improved our operational efficiency and reduced our energy costs by 15%.",
+          "author": "Sarah Johnson",
+          "position": "Operations Director",
+          "company": "Global Manufacturing Corp"
+        },
+        "ahmed_al_rashid": {
+          "quote": "Outstanding project management and technical support. G-Coresteel delivered on time and within budget while maintaining the highest quality standards.",
+          "author": "Ahmed Al-Rashid",
+          "position": "Project Manager",
+          "company": "Middle East Energy Solutions"
+        }
+      }
+    }
+  },
+  "innovation": {
+    "section_title": "The Future of Transformer Technology",
+    "section_subtitle": "Leading innovation in intelligent, sustainable, and connected power solutions",
+    "highlights_title": "Technology Highlights",
+    "highlights_subtitle": "Key technological advantages that define our innovation leadership",
+    "button_cta": "Explore Innovation Portfolio",
+    "cards": {
+      "smart": {
+        "title": "Smart Transformers",
+        "subtitle": "IoT-Enabled Intelligence",
+        "description": "Next-generation transformers with integrated IoT sensors for intelligent monitoring and predictive maintenance.",
+        "features": [
+          "IoT-enabled monitoring",
+          "Predictive maintenance",
+          "Remote diagnostics",
+          "Real-time analytics"
+        ]
+      },
+      "eco": {
+        "title": "Eco-Friendly Solutions",
+        "subtitle": "Sustainable Technology",
+        "description": "Environmentally conscious transformer solutions designed for sustainability and reduced environmental impact.",
+        "features": [
+          "Energy-efficient designs",
+          "Recyclable materials",
+          "Carbon footprint reduction",
+          "Green manufacturing"
+        ]
+      },
+      "rd": {
+        "title": "R&D Innovations",
+        "subtitle": "Advanced Engineering",
+        "description": "Cutting-edge research and development driving the future of transformer technology and efficiency.",
+        "features": [
+          "Advanced cooling systems",
+          "Noise reduction technology",
+          "Compact design solutions",
+          "Material optimization"
+        ]
+      },
+      "digital": {
+        "title": "Digital Integration",
+        "subtitle": "Connected Solutions",
+        "description": "Seamless digital integration with mobile applications and cloud-based monitoring systems.",
+        "features": [
+          "Mobile monitoring apps",
+          "Cloud-based analytics",
+          "AI-powered optimization",
+          "Digital twin technology"
+        ]
+      }
+    },
+    "tech_features": {
+      "iot": {
+        "label": "IoT Connectivity",
+        "value": "24/7 Monitoring"
+      },
+      "ai": {
+        "label": "AI Analytics",
+        "value": "Predictive Intelligence"
+      },
+      "cybersecurity": {
+        "label": "Cybersecurity",
+        "value": "Enterprise Grade"
+      },
+      "performance": {
+        "label": "Performance",
+        "value": "99.9% Uptime"
+      }
+    }
+  },
+  "certificates": {
+    "section_title": "Our Commitment to Quality",
+    "section_subtitle": "Certified excellence, globally recognized standards",
+    "filters": {
+      "all": "All",
+      "quality": "Quality",
+      "compliance": "Compliance",
+      "international": "International"
+    },
+    "modal": {
+      "issuer": "Issuer",
+      "valid_until": "Valid Until",
+      "download": "Download Certificate",
+      "verify": "Verify Online"
+    },
+    "cards": {
+      "iso9001": {
+        "title": "ISO 9001:2015",
+        "subtitle": "Quality Management System",
+        "description": "International standard for quality management systems, ensuring consistent quality in our manufacturing processes.",
+        "issuer": "International Organization for Standardization"
+      },
+      "ce": {
+        "title": "CE Conformity",
+        "subtitle": "European Conformity",
+        "description": "Certification ensuring our products meet EU safety, health, and environmental protection standards.",
+        "issuer": "European Union"
+      },
+      "iec": {
+        "title": "IEC 60076",
+        "subtitle": "Power Transformer Standards",
+        "description": "Compliance with international standards for power transformers, ensuring reliability and performance.",
+        "issuer": "International Electrotechnical Commission"
+      },
+      "rohs": {
+        "title": "RoHS Compliance",
+        "subtitle": "Restriction of Hazardous Substances",
+        "description": "Compliance with the EU directive that restricts the use of hazardous substances in our products.",
+        "issuer": "European Union"
+      },
+      "tse": {
+        "title": "TSE Certificate",
+        "subtitle": "Turkish Standards Institution",
+        "description": "National certification verifying our products' compliance with Turkish Standards.",
+        "issuer": "Turkish Standards Institution"
+      }
+    }
+  },
+  "team": {
+    "section_title": "Meet Our Engineering Excellence Team",
+    "section_subtitle": "World-class engineers and specialists driving innovation in transformer technology",
+    "details": {
+      "experience": "Experience",
+      "education": "Education",
+      "specialization": "Specialization",
+      "about": "About",
+      "achievements": "Key Achievements"
+    },
+    "navigation": {
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "members": {
+      "mehmet": {
+        "name": "Dr. Mehmet Yılmaz",
+        "position": "Chief Technology Officer",
+        "department": "Engineering & R&D",
+        "education": "PhD in Electrical Engineering, ITU",
+        "specialization": "Power Systems & Transformer Design",
+        "bio": "Leading our technical innovation with extensive experience in power transformer design and advanced cooling technologies.",
+        "achievements": [
+          "50+ Published Research Papers",
+          "IEEE Senior Member",
+          "Patent Holder - Advanced Cooling Systems"
+        ]
+      },
+      "sarah": {
+        "name": "Eng. Sarah Johnson",
+        "position": "Head of Quality Assurance",
+        "department": "Quality Control",
+        "education": "MSc in Materials Engineering, MIT",
+        "specialization": "Quality Systems & Testing Protocols",
+        "bio": "Ensuring the highest quality standards through rigorous testing protocols and continuous improvement initiatives.",
+        "achievements": [
+          "ISO 9001 Lead Auditor",
+          "Six Sigma Black Belt",
+          "Quality Excellence Award 2023"
+        ]
+      },
+      "ahmed": {
+        "name": "Eng. Ahmed Al-Rashid",
+        "position": "Senior Project Manager",
+        "department": "Project Management",
+        "education": "BSc in Industrial Engineering, AUB",
+        "specialization": "Large-Scale Project Delivery",
+        "bio": "Managing complex transformer projects from conception to delivery with exceptional attention to detail and timeline management.",
+        "achievements": [
+          "PMP Certified",
+          "100+ Successful Projects",
+          "On-Time Delivery Rate: 98%"
+        ]
+      },
+      "elena": {
+        "name": "Dr. Elena Petrov",
+        "position": "R&D Director",
+        "department": "Research & Development",
+        "education": "PhD in Power Electronics, TU Delft",
+        "specialization": "Smart Grid Technologies",
+        "bio": "Driving innovation in smart transformer technologies and sustainable energy solutions for the future.",
+        "achievements": [
+          "30+ International Patents",
+          "Innovation Award Winner",
+          "Smart Grid Pioneer"
+        ]
+      }
+    }
+  },
+  "downloads": {
+    "section_title": "Download Center",
+    "section_subtitle": "Access technical documentation, product catalogs, certificates, and multimedia resources",
+    "search_placeholder": "Search documents...",
+    "filters": {
+      "all": "All Documents",
+      "catalogs": "Product Catalogs",
+      "technical": "Technical Specs",
+      "certificates": "Certificates",
+      "case_studies": "Case Studies",
+      "videos": "Videos"
+    },
+    "card": {
+      "featured": "Featured",
+      "size": "Size",
+      "pages": "Pages",
+      "duration": "Duration",
+      "downloads": "Downloads",
+      "download_button": "Download"
+    },
+    "no_results": {
+      "title": "No documents found",
+      "subtitle": "Try adjusting your search terms or filters"
+    },
+    "modal": {
+      "preview": "Document preview will be available here",
+      "download_button": "Download as {type}"
+    },
+    "documents": {
+      "catalog_2024": {
+        "title": "Complete Product Catalog 2024",
+        "description": "Comprehensive catalog featuring our full range of transformer solutions"
+      },
+      "tech_specs": {
+        "title": "Power Transformer Technical Specifications",
+        "description": "Detailed technical specifications for power transformers 1-100 MVA"
+      },
+      "iso_cert": {
+        "title": "ISO 9001:2015 Certificate",
+        "description": "Quality management system certification document"
+      },
+      "mfg_video": {
+        "title": "Manufacturing Process Overview",
+        "description": "Video showcasing our advanced manufacturing capabilities"
+      },
+      "case_study": {
+        "title": "Smart Grid Integration Case Study",
+        "description": "Real-world implementation of smart transformer technology"
+      },
+      "install_guide": {
+        "title": "Installation Guidelines",
+        "description": "Step-by-step installation and commissioning procedures"
+      }
+    }
+  },
+  "contact": {
+    "section_title": "Get In Touch",
+    "section_subtitle": "Ready to power your project? Contact our experts for customized transformer solutions",
+    "form": {
+      "title": "Request a Quote",
+      "subtitle": "Get customized solutions for your project",
+      "labels": {
+        "full_name": "Full Name *",
+        "company": "Company *",
+        "email": "Email Address *",
+        "phone": "Phone Number",
+        "project_type": "Project Type *",
+        "budget": "Budget Range",
+        "timeline": "Timeline",
+        "details": "Project Details *"
+      },
+      "placeholders": {
+        "full_name": "Your full name",
+        "company": "Your company name",
+        "email": "your@email.com",
+        "phone": "+90 xxx xxx xx xx",
+        "details": "Please describe your project requirements, specifications, power ratings, environmental conditions, and any other relevant details..."
+      },
+      "selects": {
+        "project_type": "Select project type",
+        "budget": "Select budget range",
+        "timeline": "Select timeline"
+      },
+      "submit_button": "Send Quote Request"
+    },
+    "quick_contact": {
+      "title": "Quick Contact",
+      "phone": "Phone",
+      "email": "Email",
+      "location": "Location",
+      "whatsapp": "WhatsApp",
+      "whatsapp_value": "Direct Line Available"
+    },
+    "hours": {
+      "title": "Business Hours",
+      "weekdays": "Monday - Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday",
+      "sunday_value": "Emergency Only"
+    },
+    "location": {
+      "title": "Our Location",
+      "map_text": "Interactive map coming soon"
+    },
+    "project_types": [
+      "Power Transformers (1-10 MVA)",
+      "Power Transformers (10-50 MVA)",
+      "Power Transformers (50+ MVA)",
+      "Distribution Transformers",
+      "Industrial Solutions",
+      "Renewable Energy Integration",
+      "Smart Grid Solutions",
+      "Maintenance Services",
+      "Technical Consultancy",
+      "Custom Requirements"
+    ],
+    "budget_ranges": [
+      "Under $50,000",
+      "$50,000 - $100,000",
+      "$100,000 - $500,000",
+      "$500,000 - $1,000,000",
+      "$1,000,000 - $5,000,000",
+      "Over $5,000,000",
+      "Prefer not to specify"
+    ],
+    "timeline_options": [
+      "Urgent (Within 1 month)",
+      "Short-term (1-3 months)",
+      "Medium-term (3-6 months)",
+      "Long-term (6+ months)",
+      "Planning phase"
+    ]
+  },
+  "interactive": {
+    "roi": {
+      "title": "Return on Investment Calculator",
+      "current_cost": "Current Annual Energy Cost ($)",
+      "current_efficiency": "Current Efficiency (%)",
+      "target_efficiency": "Target Efficiency (%)",
+      "potential_roi": "Potential Annual ROI"
+    },
+    "power_monitor": {
+      "title": "Live Power Monitor",
+      "power_load": "Power Load",
+      "efficiency": "Efficiency",
+      "status": "System Status: Optimal Performance"
+    },
+    "timeline": {
+      "title": "Project Timeline",
+      "phases": {
+        "consultation": {
+          "title": "Consultation & Design",
+          "description": "Initial assessment, custom design, and technical specifications"
+        },
+        "manufacturing": {
+          "title": "Manufacturing",
+          "description": "Precision manufacturing with quality control at every step"
+        },
+        "testing": {
+          "title": "Testing & QA",
+          "description": "Comprehensive testing and certification processes"
+        },
+        "installation": {
+          "title": "Installation & Commissioning",
+          "description": "On-site installation, testing, and system deployment"
+        }
+      }
+    },
+    "quick_actions": {
+      "video_call": "Schedule a Video Call",
+      "instant_quote": "Get Instant Quote",
+      "download_catalog": "Download Catalog",
+      "call_expert": "Call an Expert"
+    }
+  },
+  "footer": {
+    "tagline": "Excellence in Manufacturing",
+    "description": "With over 20 years of experience in core transformer manufacturing, we deliver innovative energy solutions from Istanbul to the world, setting new standards in industrial excellence.",
+    "quick_links_title": "Quick Links",
+    "services_title": "Our Services",
+    "copyright": "© 2024 G-Coresteel. All rights reserved.",
+    "links": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "projects": "Projects",
+      "core_transformers": "Core Transformers",
+      "industrial_solutions": "Industrial Solutions",
+      "technical_consultancy": "Technical Consultancy",
+      "maintenance_services": "Maintenance Services"
+    }
+  },
+  "hero": {
+    "title_part1": "SHAPING THE",
+    "title_part2": "FUTURE OF ENERGY",
+    "subtitle": "With over 20 years of experience in core transformer manufacturing, we deliver innovative energy solutions from Istanbul to the world.",
+    "button_primary": "EXPLORE OUR PROJECTS",
+    "button_secondary": "GET A FREE QUOTE",
+    "scroll_text": "Scroll to explore",
+    "stats": {
+      "projects": "Successful Projects",
+      "collaborations": "Industry Collaborations",
+      "satisfaction": "Customer Satisfaction",
+      "experience": "Years of Experience"
+    }
+  },
+  "header": {
+    "tagline": "Excellence in Manufacturing",
+    "get_quote_button": "Get Quote",
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "projects": "Projects",
+      "innovation": "Innovation",
+      "contact": "Contact"
+    }
+  }
+}

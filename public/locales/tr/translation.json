@@ -1,0 +1,574 @@
+{
+  "about": {
+    "button_cta": "Hakkımızda Daha Fazla Bilgi",
+    "description": "Enerji sektöründeki çığır açan çözümlerimizle müşterilerimizin operasyonel verimliliğini artırıyor, maliyetlerini optimize ediyor ve sürdürülebilir bir geleceğe katkıda bulunuyoruz. Mükemmelliğe olan bağlılığımız, üretim sürecimizin her aşamasına yön vermektedir.",
+    "image_location": "İstanbul, Türkiye",
+    "image_title": "Modern Üretim Tesisi",
+    "stats_certified": "Sertifikalı",
+    "stats_quality": "Kalite Oranı",
+    "title": "Neden G-Coresteel?",
+    "values": {
+      "innovative": {
+        "description": "Enerji zorluklarına ileri görüşlü yaklaşımlar",
+        "title": "Yenilikçi Çözümler"
+      },
+      "performance": {
+        "description": "Optimize edilmiş verimlilik ve ölçülebilir sonuçlar",
+        "title": "Performans Odaklılık"
+      },
+      "reliability": {
+        "description": "Zorlu ortamlar için üretilmiş sağlam sistemler",
+        "title": "Endüstriyel Güvenilirlik"
+      },
+      "satisfaction": {
+        "description": "Adanmış ortaklık ve üstün hizmet",
+        "title": "Müşteri Memnuniyeti"
+      },
+      "sustainable": {
+        "description": "Çevreye duyarlı güç çözümleri",
+        "title": "Sürdürülebilir Enerji"
+      },
+      "technical": {
+        "description": "İleri düzey mühendislik ve hassas üretim",
+        "title": "Teknik Mükemmellik"
+      }
+    }
+  },
+  "services": {
+    "button_cta": "Özel Çözüm Talep Edin",
+    "cards": {
+      "consultancy": {
+        "description": "Enerji verimliliği optimizasyonu ve proje geliştirme için uzman analizi ve danışmanlık.",
+        "features": [
+          "Enerji verimliliği analizi",
+          "Sistem optimizasyonu",
+          "Proje geliştirme danışmanlığı",
+          "Performans değerlendirmeleri"
+        ],
+        "title": "Teknik Danışmanlık"
+      },
+      "industrial": {
+        "description": "Özelleştirilmiş endüstriyel uygulamalar için kapsamlı güç ve dağıtım transformatörleri.",
+        "features": [
+          "Güç transformatörleri (1-100 MVA)",
+          "Dağıtım transformatörleri",
+          "Özel endüstriyel uygulamalar",
+          "İsteğe özel voltaj değerleri"
+        ],
+        "title": "Endüstriyel Transformatör Çözümleri"
+      },
+      "maintenance": {
+        "description": "Acil durum müdahalesi ve performans izleme ile kapsamlı bakım programları.",
+        "features": [
+          "Periyodik bakım programları",
+          "Acil durum müdahale hizmeti",
+          "Performans izleme sistemleri",
+          "7/24 teknik destek"
+        ],
+        "title": "Bakım ve Servis"
+      },
+      "management": {
+        "description": "Zaman çizelgesi kontrolü ve 7/24 proje takibi ile uçtan uca proje yönetimi.",
+        "features": [
+          "Uçtan uca proje yönetimi",
+          "Zaman ve bütçe kontrolü",
+          "7/24 proje takibi",
+          "Düzenli ilerleme raporları"
+        ],
+        "title": "Proje Yönetimi"
+      },
+      "manufacturing": {
+        "description": "Yüksek verimli teknoloji ve uluslararası kalite standartları ile özel tasarım ve üretim.",
+        "features": [
+          "Özel tasarım ve mühendislik",
+          "Yüksek verimlilik teknolojisi",
+          "Uluslararası kalite standartları",
+          "Gelişmiş soğutma sistemleri"
+        ],
+        "title": "Nüve Transformatör İmalatı"
+      },
+      "quality": {
+        "description": "Uluslararası sertifikalar ve kapsamlı testler ile sıkı kalite kontrolü.",
+        "features": [
+          "ISO 9001:2015 sertifikalı",
+          "CE uygunluk belgeli",
+          "Kapsamlı test prosedürleri",
+          "Kalite dokümantasyonu"
+        ],
+        "title": "Kalite Güvencesi"
+      }
+    },
+    "learn_more": "Daha Fazla Bilgi",
+    "section_subtitle": "Tasarımdan devreye almaya, dünya çapındaki endüstrilere güç veren komple transformatör çözümleri sunuyoruz",
+    "section_title": "Kapsamlı Transformatör Çözümleri ve Hizmetlerimiz"
+  },
+  "projects": {
+    "section_title": "Başarı Hikayeleri ve Referans Projeler",
+    "section_subtitle": "Farklı sektörlerde ve zorlu ortamlarda kanıtlanmış mükemmellik",
+    "view_details_cta": "Proje Detaylarını Görüntüle",
+    "spec_labels": {
+      "power": "Güç",
+      "efficiency": "Verimlilik",
+      "duration": "Süre",
+      "units": "Birim",
+      "solution": "Çözüm",
+      "savings": "Tasarruf",
+      "scope": "Kapsam",
+      "warranty": "Garanti",
+      "type": "Tip",
+      "connection": "Bağlantı",
+      "integration": "Entegrasyon"
+    },
+    "cards": {
+      "power_plant": {
+        "title": "Enerji Santrali Projesi",
+        "category": "Enerji Üretimi",
+        "description": "Son teknoloji verimlilik oranlarına sahip büyük bir enerji santrali transformatör kurulumu."
+      },
+      "industrial_complex": {
+        "title": "Endüstriyel Tesis",
+        "category": "İmalat",
+        "description": "Büyük ölçekli endüstriyel üretim tesisi için kapsamlı transformatör çözümü."
+      },
+      "infrastructure": {
+        "title": "Altyapı Projesi",
+        "category": "Kentsel Gelişim",
+        "description": "Modern transformatör teknolojisi ile şehir çapında elektrik şebekesi güçlendirmesi."
+      },
+      "renewable_energy": {
+        "title": "Yenilenebilir Enerji Entegrasyonu",
+        "category": "Yeşil Teknoloji",
+        "description": "Akıllı şebeke entegrasyon yeteneklerine sahip güneş enerjisi santrali transformatör çözümleri."
+      }
+    },
+    "testimonials": {
+      "title": "Müşterilerimiz Ne Diyor?",
+      "data": {
+        "mehmet_yilmaz": {
+          "quote": "G-Coresteel ile çalışmak projemizin başarısında kritik bir rol oynadı. Teknik uzmanlıkları ve kaliteye olan bağlılıkları beklentilerimizi aştı.",
+          "author": "Dr. Mehmet Yılmaz",
+          "position": "Baş Mühendis",
+          "company": "TurkPower Endüstrileri"
+        },
+        "sarah_johnson": {
+          "quote": "G-Coresteel'in sağladığı özel transformatör çözümleri, operasyonel verimliliğimizi önemli ölçüde artırdı ve enerji maliyetlerimizi %15 düşürdü.",
+          "author": "Sarah Johnson",
+          "position": "Operasyon Direktörü",
+          "company": "Global Manufacturing Corp"
+        },
+        "ahmed_al_rashid": {
+          "quote": "Olağanüstü proje yönetimi ve teknik destek. G-Coresteel, en yüksek kalite standartlarını korurken zamanında ve bütçe dahilinde teslimat yaptı.",
+          "author": "Ahmed Al-Rashid",
+          "position": "Proje Yöneticisi",
+          "company": "Orta Doğu Enerji Çözümleri"
+        }
+      }
+    }
+  },
+  "innovation": {
+    "section_title": "Transformatör Teknolojisinin Geleceği",
+    "section_subtitle": "Akıllı, sürdürülebilir ve bağlantılı güç çözümlerinde lider inovasyon",
+    "highlights_title": "Teknolojik Öne Çıkanlar",
+    "highlights_subtitle": "İnovasyon liderliğimizi tanımlayan temel teknolojik avantajlar",
+    "button_cta": "İnovasyon Portföyünü Keşfet",
+    "cards": {
+      "smart": {
+        "title": "Akıllı Transformatörler",
+        "subtitle": "IoT Destekli Zeka",
+        "description": "Akıllı izleme ve kestirimci bakım için entegre IoT sensörlerine sahip yeni nesil transformatörler.",
+        "features": [
+          "IoT destekli izleme",
+          "Kestirimci bakım",
+          "Uzaktan teşhis",
+          "Gerçek zamanlı analitik"
+        ]
+      },
+      "eco": {
+        "title": "Çevre Dostu Çözümler",
+        "subtitle": "Sürdürülebilirlik Teknolojisi",
+        "description": "Sürdürülebilirlik ve azaltılmış çevresel etki için tasarlanmış çevreye duyarlı transformatör çözümleri.",
+        "features": [
+          "Enerji verimli tasarımlar",
+          "Geri dönüştürülebilir malzemeler",
+          "Karbon ayak izi azaltma",
+          "Yeşil üretim"
+        ]
+      },
+      "rd": {
+        "title": "Ar-Ge İnovasyonları",
+        "subtitle": "Gelişmiş Mühendislik",
+        "description": "Transformatör teknolojisi ve verimliliğinin geleceğini yönlendiren ileri düzey araştırma ve geliştirme.",
+        "features": [
+          "Gelişmiş soğutma sistemleri",
+          "Gürültü azaltma teknolojisi",
+          "Kompakt tasarım çözümleri",
+          "Malzeme optimizasyonu"
+        ]
+      },
+      "digital": {
+        "title": "Dijital Entegrasyon",
+        "subtitle": "Bağlantılı Çözümler",
+        "description": "Mobil uygulamalar ve bulut tabanlı izleme sistemleriyle sorunsuz dijital entegrasyon.",
+        "features": [
+          "Mobil izleme uygulamaları",
+          "Bulut tabanlı analitik",
+          "Yapay zeka destekli optimizasyon",
+          "Dijital ikiz teknolojisi"
+        ]
+      }
+    },
+    "tech_features": {
+      "iot": {
+        "label": "IoT Bağlantısı",
+        "value": "7/24 İzleme"
+      },
+      "ai": {
+        "label": "Yapay Zeka Analitiği",
+        "value": "Kestirimci Zeka"
+      },
+      "cybersecurity": {
+        "label": "Siber Güvenlik",
+        "value": "Kurumsal Seviye"
+      },
+      "performance": {
+        "label": "Performans",
+        "value": "%99.9 Çalışma Süresi"
+      }
+    }
+  },
+  "certificates": {
+    "section_title": "Kaliteye Olan Bağlılığımız",
+    "section_subtitle": "Sertifikalı mükemmellik, küresel olarak tanınan standartlar",
+    "filters": {
+      "all": "Tümü",
+      "quality": "Kalite",
+      "compliance": "Uygunluk",
+      "international": "Uluslararası"
+    },
+    "modal": {
+      "issuer": "Veren Kurum",
+      "valid_until": "Geçerlilik Tarihi",
+      "download": "Sertifikayı İndir",
+      "verify": "Online Doğrula"
+    },
+    "cards": {
+      "iso9001": {
+        "title": "ISO 9001:2015",
+        "subtitle": "Kalite Yönetim Sistemi",
+        "description": "Üretim süreçlerimizde tutarlı kaliteyi sağlayan uluslararası kalite yönetim sistemi standardı.",
+        "issuer": "Uluslararası Standardizasyon Örgütü"
+      },
+      "ce": {
+        "title": "CE Uygunluğu",
+        "subtitle": "Avrupa Uygunluğu",
+        "description": "Ürünlerimizin AB güvenlik, sağlık ve çevre koruma standartlarını karşıladığını garanti eden sertifika.",
+        "issuer": "Avrupa Birliği"
+      },
+      "iec": {
+        "title": "IEC 60076",
+        "subtitle": "Güç Transformatörü Standartları",
+        "description": "Güç transformatörleri için uluslararası standartlara uygunluk, güvenilirlik ve performans sağlar.",
+        "issuer": "Uluslararası Elektroteknik Komisyonu"
+      },
+      "rohs": {
+        "title": "RoHS Uygunluğu",
+        "subtitle": "Tehlikeli Madde Kısıtlaması",
+        "description": "Ürünlerimizde tehlikeli maddelerin kullanımını kısıtlayan AB direktifine uygunluk.",
+        "issuer": "Avrupa Birliği"
+      },
+      "tse": {
+        "title": "TSE Belgesi",
+        "subtitle": "Türk Standartları Enstitüsü",
+        "description": "Ürünlerimizin Türk Standartlarına uygunluğunu belgeleyen ulusal sertifika.",
+        "issuer": "Türk Standartları Enstitüsü"
+      }
+    }
+  },
+  "team": {
+    "section_title": "Mühendislik Mükemmellik Ekibimizle Tanışın",
+    "section_subtitle": "Transformatör teknolojisinde yeniliği yönlendiren birinci sınıf mühendisler ve uzmanlar",
+    "details": {
+      "experience": "Deneyim",
+      "education": "Eğitim",
+      "specialization": "Uzmanlık",
+      "about": "Hakkında",
+      "achievements": "Başarılar"
+    },
+    "navigation": {
+      "previous": "Önceki",
+      "next": "Sonraki"
+    },
+    "members": {
+      "mehmet": {
+        "name": "Dr. Mehmet Yılmaz",
+        "position": "Teknoloji Direktörü (CTO)",
+        "department": "Mühendislik & Ar-Ge",
+        "education": "Doktora, Elektrik Müh., İTÜ",
+        "specialization": "Güç Sistemleri & Transformatör Tasarımı",
+        "bio": "Güç transformatörü tasarımı ve gelişmiş soğutma teknolojilerindeki kapsamlı deneyimiyle teknik yeniliklerimize liderlik ediyor.",
+        "achievements": [
+          "50+ Yayınlanmış Araştırma Makalesi",
+          "IEEE Kıdemli Üyesi",
+          "Patent Sahibi - Gelişmiş Soğutma Sistemleri"
+        ]
+      },
+      "sarah": {
+        "name": "Müh. Sarah Johnson",
+        "position": "Kalite Güvence Müdürü",
+        "department": "Kalite Kontrol",
+        "education": "Yüksek Lisans, Malzeme Müh., MIT",
+        "specialization": "Kalite Sistemleri & Test Protokolleri",
+        "bio": "Katı test protokolleri ve sürekli iyileştirme girişimleri yoluyla en yüksek kalite standartlarını sağlıyor.",
+        "achievements": [
+          "ISO 9001 Baş Denetçisi",
+          "Altı Sigma Kara Kuşak",
+          "Kalite Mükemmellik Ödülü 2023"
+        ]
+      },
+      "ahmed": {
+        "name": "Müh. Ahmed Al-Rashid",
+        "position": "Kıdemli Proje Yöneticisi",
+        "department": "Proje Yönetimi",
+        "education": "Lisans, Endüstri Müh., AUB",
+        "specialization": "Büyük Ölçekli Proje Teslimatı",
+        "bio": "Karmaşık transformatör projelerini, detaylara ve zaman çizelgesine olağanüstü dikkat göstererek konseptten teslimata kadar yönetiyor.",
+        "achievements": [
+          "PMP Sertifikalı",
+          "100+ Başarılı Proje",
+          "Zamanında Teslimat Oranı: %98"
+        ]
+      },
+      "elena": {
+        "name": "Dr. Elena Petrov",
+        "position": "Ar-Ge Direktörü",
+        "department": "Araştırma & Geliştirme",
+        "education": "Doktora, Güç Elektroniği, TU Delft",
+        "specialization": "Akıllı Şebeke Teknolojileri",
+        "bio": "Gelecek için akıllı transformatör teknolojileri ve sürdürülebilir enerji çözümlerinde yeniliği teşvik ediyor.",
+        "achievements": [
+          "30+ Uluslararası Patent",
+          "İnovasyon Ödülü Sahibi",
+          "Akıllı Şebeke Öncüsü"
+        ]
+      }
+    }
+  },
+  "downloads": {
+    "section_title": "İndirme Merkezi",
+    "section_subtitle": "Teknik dokümantasyon, ürün katalogları, sertifikalar ve multimedya kaynaklarına erişin",
+    "search_placeholder": "Dokümanları ara...",
+    "filters": {
+      "all": "Tüm Dokümanlar",
+      "catalogs": "Ürün Katalogları",
+      "technical": "Teknik Özellikler",
+      "certificates": "Sertifikalar",
+      "case_studies": "Vaka Analizleri",
+      "videos": "Videolar"
+    },
+    "card": {
+      "featured": "Öne Çıkan",
+      "size": "Boyut",
+      "pages": "Sayfa",
+      "duration": "Süre",
+      "downloads": "İndirme",
+      "download_button": "İndir"
+    },
+    "no_results": {
+      "title": "Doküman bulunamadı",
+      "subtitle": "Arama terimlerinizi veya filtrelerinizi değiştirmeyi deneyin"
+    },
+    "modal": {
+      "preview": "Doküman önizlemesi burada mevcut olacak",
+      "download_button": "{type} Olarak İndir"
+    },
+    "documents": {
+      "catalog_2024": {
+        "title": "Tam Ürün Kataloğu 2024",
+        "description": "Tüm transformatör çözümlerimizi içeren kapsamlı katalog"
+      },
+      "tech_specs": {
+        "title": "Güç Transformatörü Teknik Özellikleri",
+        "description": "1-100 MVA güç transformatörleri için detaylı teknik özellikler"
+      },
+      "iso_cert": {
+        "title": "ISO 9001:2015 Sertifikası",
+        "description": "Kalite yönetim sistemi sertifika dokümanı"
+      },
+      "mfg_video": {
+        "title": "Üretim Sürecine Genel Bakış",
+        "description": "Gelişmiş üretim kabiliyetlerimizi sergileyen video"
+      },
+      "case_study": {
+        "title": "Akıllı Şebeke Entegrasyonu Vaka Analizi",
+        "description": "Akıllı transformatör teknolojisinin gerçek dünya uygulaması"
+      },
+      "install_guide": {
+        "title": "Kurulum Yönergeleri",
+        "description": "Adım adım kurulum ve devreye alma prosedürleri"
+      }
+    }
+  },
+  "contact": {
+    "section_title": "İletişime Geçin",
+    "section_subtitle": "Projenize güç vermeye hazır mısınız? Özelleştirilmiş transformatör çözümleri için uzmanlarımızla iletişime geçin",
+    "form": {
+      "title": "Teklif Talep Edin",
+      "subtitle": "Projeniz için özelleştirilmiş çözümler alın",
+      "labels": {
+        "full_name": "Ad Soyad *",
+        "company": "Şirket *",
+        "email": "E-posta Adresi *",
+        "phone": "Telefon Numarası",
+        "project_type": "Proje Tipi *",
+        "budget": "Bütçe Aralığı",
+        "timeline": "Zaman Çizelgesi",
+        "details": "Proje Detayları *"
+      },
+      "placeholders": {
+        "full_name": "Adınız ve soyadınız",
+        "company": "Şirketinizin adı",
+        "email": "eposta@adresiniz.com",
+        "phone": "+90 xxx xxx xx xx",
+        "details": "Lütfen proje gereksinimlerinizi, teknik özellikleri, güç değerlerini, çevresel koşulları ve diğer ilgili detayları açıklayın..."
+      },
+      "selects": {
+        "project_type": "Proje tipi seçin",
+        "budget": "Bütçe aralığı seçin",
+        "timeline": "Zaman çizelgesi seçin"
+      },
+      "submit_button": "Teklif Talebi Gönder"
+    },
+    "quick_contact": {
+      "title": "Hızlı İletişim",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "location": "Konum",
+      "whatsapp": "WhatsApp",
+      "whatsapp_value": "Direkt Hat Mevcut"
+    },
+    "hours": {
+      "title": "Çalışma Saatleri",
+      "weekdays": "Pazartesi - Cuma",
+      "saturday": "Cumartesi",
+      "sunday": "Pazar",
+      "sunday_value": "Sadece Acil Durumlar"
+    },
+    "location": {
+      "title": "Konumumuz",
+      "map_text": "Etkileşimli harita yakında"
+    },
+    "project_types": [
+      "Güç Transformatörleri (1-10 MVA)",
+      "Güç Transformatörleri (10-50 MVA)",
+      "Güç Transformatörleri (50+ MVA)",
+      "Dağıtım Transformatörleri",
+      "Endüstriyel Çözümler",
+      "Yenilenebilir Enerji Entegrasyonu",
+      "Akıllı Şebeke Çözümleri",
+      "Bakım Hizmetleri",
+      "Teknik Danışmanlık",
+      "Özel Gereksinimler"
+    ],
+    "budget_ranges": [
+      "50.000 $'dan az",
+      "50.000 $ - 100.000 $",
+      "100.000 $ - 500.000 $",
+      "500.000 $ - 1.000.000 $",
+      "1.000.000 $ - 5.000.000 $",
+      "5.000.000 $'dan fazla",
+      "Belirtmemeyi tercih ederim"
+    ],
+    "timeline_options": [
+      "Acil (1 ay içinde)",
+      "Kısa vadeli (1-3 ay)",
+      "Orta vadeli (3-6 ay)",
+      "Uzun vadeli (6+ ay)",
+      "Planlama aşamasında"
+    ]
+  },
+  "interactive": {
+    "roi": {
+      "title": "Yatırım Geri Dönüşü Hesaplayıcı",
+      "current_cost": "Mevcut Yıllık Enerji Maliyeti ($)",
+      "current_efficiency": "Mevcut Verimlilik (%)",
+      "target_efficiency": "Hedef Verimlilik (%)",
+      "potential_roi": "Potansiyel Yıllık Yatırım Geri Dönüşü"
+    },
+    "power_monitor": {
+      "title": "Canlı Güç Monitörü",
+      "power_load": "Güç Yükü",
+      "efficiency": "Verimlilik",
+      "status": "Sistem Durumu: Optimal Performans"
+    },
+    "timeline": {
+      "title": "Proje Zaman Çizelgesi",
+      "phases": {
+        "consultation": {
+          "title": "Danışmanlık & Tasarım",
+          "description": "İlk değerlendirme, özel tasarım ve teknik şartnameler"
+        },
+        "manufacturing": {
+          "title": "İmalat",
+          "description": "Her adımda kalite kontrol ile hassas üretim"
+        },
+        "testing": {
+          "title": "Test & Kalite Güvencesi",
+          "description": "Kapsamlı test ve sertifikasyon süreçleri"
+        },
+        "installation": {
+          "title": "Kurulum & Devreye Alma",
+          "description": "Yerinde kurulum, test ve sistemin devreye alınması"
+        }
+      }
+    },
+    "quick_actions": {
+      "video_call": "Görüntülü Görüşme Planla",
+      "instant_quote": "Anında Teklif Al",
+      "download_catalog": "Katalog İndir",
+      "call_expert": "Uzmanı Ara"
+    }
+  },
+  "footer": {
+    "tagline": "İmalatta Mükemmellik",
+    "description": "Nüve transformatör imalatında 20 yılı aşkın tecrübemizle, endüstriyel mükemmellikte yeni standartlar belirleyerek İstanbul'dan dünyaya yenilikçi enerji çözümleri sunuyoruz.",
+    "quick_links_title": "Hızlı Bağlantılar",
+    "services_title": "Hizmetlerimiz",
+    "copyright": "© 2024 G-Coresteel. Tüm hakları saklıdır.",
+    "links": {
+      "home": "Ana Sayfa",
+      "about": "Hakkımızda",
+      "services": "Hizmetler",
+      "projects": "Projeler",
+      "core_transformers": "Nüve Transformatörler",
+      "industrial_solutions": "Endüstriyel Çözümler",
+      "technical_consultancy": "Teknik Danışmanlık",
+      "maintenance_services": "Bakım Hizmetleri"
+    }
+  },
+  "hero": {
+    "title_part1": "ENERJİNİN GELECEĞİNİ",
+    "title_part2": "ŞEKİLLENDİRİYORUZ",
+    "subtitle": "Nüve transformatör imalatındaki 20 yılı aşkın tecrübemizle, İstanbul'dan dünyaya yenilikçi enerji çözümleri sunuyoruz.",
+    "button_primary": "PROJELERİMİZİ KEŞFEDİN",
+    "button_secondary": "ÜCRETSİZ TEKLİF ALIN",
+    "scroll_text": "Keşfetmek için kaydırın",
+    "stats": {
+      "projects": "Başarılı Proje",
+      "collaborations": "Sektör İşbirliği",
+      "satisfaction": "Müşteri Memnuniyeti",
+      "experience": "Yıllık Tecrübe"
+    }
+  },
+  "header": {
+    "tagline": "İmalatta Mükemmellik",
+    "get_quote_button": "Teklif Al",
+    "nav": {
+      "home": "Ana Sayfa",
+      "about": "Hakkımızda",
+      "services": "Hizmetler",
+      "projects": "Projeler",
+      "innovation": "İnovasyon",
+      "contact": "İletişim"
+    }
+  }
+}
