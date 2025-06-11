@@ -102,6 +102,73 @@
     "section_subtitle": "Tasarımdan devreye almaya, dünya çapındaki endüstrilere güç veren komple transformatör çözümleri sunuyoruz",
     "section_title": "Kapsamlı Transformatör Çözümleri ve Hizmetlerimiz"
   },
+  "technical_specs": {
+    "section_title": "Teknik Yeteneklerimiz",
+    "section_subtitle": "Üretim kapasitemiz, teknolojik altyapımız ve kalite standartlarımız hakkında detaylı bilgiler.",
+    "key_advantage": "Temel Avantaj",
+    "tabs": {
+      "production_capacity": {
+        "label": "Üretim Kapasitesi",
+        "title": "Üretim Kapasitesi ve Yetenekler",
+        "advantage": "Yüksek hacimli üretim kapasitemiz ve verimli süreçlerimiz, en zorlu proje zaman çizelgelerini bile karşılamamızı sağlar.",
+        "specs": {
+          "daily_capacity": "Günlük Kapasite",
+          "daily_capacity_value": "5 MVA'ya kadar",
+          "power_range": "Güç Aralığı",
+          "power_range_value": "1-100 MVA",
+          "lead_time": "Teslim Süresi",
+          "lead_time_value": "4-8 Hafta",
+          "testing_rate": "Test Oranı",
+          "testing_rate_value": "Günde 10 Birim"
+        }
+      },
+      "technology_infrastructure": {
+        "label": "Teknoloji Altyapısı",
+        "title": "İleri Teknoloji ve Otomasyon",
+        "advantage": "Modern CNC parkurumuz ve robotik sistemlerimiz, üretimde benzersiz bir hassasiyet ve tutarlılık sunar.",
+        "specs": {
+          "cnc_park": "CNC Parkuru",
+          "cnc_park_value": "Tam Otomatik Kesim & Büküm",
+          "winding_systems": "Sargı Sistemleri",
+          "winding_systems_value": "Yüksek Hassasiyetli Sargı",
+          "design_simulation": "Tasarım ve Simülasyon",
+          "design_simulation_value": "3D Modelleme ve Analiz",
+          "quality_control": "Kalite Kontrol",
+          "quality_control_value": "Otomatik Optik İnceleme"
+        }
+      },
+      "material_quality": {
+        "label": "Malzeme Kalitesi",
+        "title": "Üstün Kaliteli Malzemeler",
+        "advantage": "Sadece en yüksek kalitede, sertifikalı malzemeler kullanarak transformatörlerimizin uzun ömürlü ve güvenilir olmasını garanti ediyoruz.",
+        "specs": {
+          "silicon_steel": "Silisyum Çeliği",
+          "silicon_steel_value": "M0/M1 Sınıfı, Düşük Kayıp",
+          "copper_windings": "Bakır Sargılar",
+          "copper_windings_value": "%99.9 Saf Elektrolitik Bakır",
+          "insulation_materials": "İzolasyon Malzemeleri",
+          "insulation_materials_value": "Termal Sınıf H (180°C)",
+          "environmental_coatings": "Çevresel Kaplamalar",
+          "environmental_coatings_value": "Korozyona Karşı Dayanıklı Boya"
+        }
+      },
+      "testing_standards": {
+        "label": "Test Standartları",
+        "title": "Kapsamlı Test ve Güvence",
+        "advantage": "Her transformatör, uluslararası standartları aşan zorlu test prosedürlerinden geçirilerek sahada kusursuz performans garanti edilir.",
+        "specs": {
+          "iec_standards": "IEC Standartları",
+          "iec_standards_value": "IEC 60076 Tam Uyum",
+          "routine_procedures": "Rutin Prosedürler",
+          "routine_procedures_value": "Her Birimde 15+ Test",
+          "type_test": "Tip Testleri",
+          "type_test_value": "İsteğe Bağlı KEMA/CESI Raporları",
+          "reliability_testing": "Güvenilirlik Testleri",
+          "reliability_testing_value": "Hızlandırılmış Yaşlandırma Testleri"
+        }
+      }
+    }
+  },
   "projects": {
     "section_title": "Başarı Hikayeleri ve Referans Projeler",
     "section_subtitle": "Farklı sektörlerde ve zorlu ortamlarda kanıtlanmış mükemmellik",
