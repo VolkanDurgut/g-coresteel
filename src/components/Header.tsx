@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { Menu, X, Zap, Settings } from 'lucide-react';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const Header: React.FC = () => {
+  const { t } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -10,19 +13,11 @@ const Header: React.FC = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
-
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navigationItems = [
-    { label: 'Home', href: '#home' },
-    { label: 'About', href: '#about' },
-    { label: 'Services', href: '#services' },
-    { label: 'Projects', href: '#projects' },
-    { label: 'Innovation', href: '#innovation' },
-    { label: 'Contact', href: '#contact' }
-  ];
+  const navigationItemKeys = ['home', 'about', 'services', 'projects', 'innovation', 'contact'];
 
   return (
     <motion.header
@@ -37,7 +32,6 @@ const Header: React.FC = () => {
     >
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          {/* Logo */}
           <motion.div 
             className="flex items-center space-x-3"
             whileHover={{ scale: 1.05 }}
@@ -52,48 +46,46 @@ const Header: React.FC = () => {
                 G-CORESTEEL
               </h1>
               <p className={`text-xs ${isScrolled ? 'text-primary-500' : 'text-white/80'} font-inter`}>
-                Excellence in Manufacturing
+                {t('header.tagline')}
               </p>
             </div>
           </motion.div>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-8">
-            {navigationItems.map((item, index) => (
-              <motion.a
-                key={item.label}
-                href={item.href}
-                className={`font-inter font-medium transition-colors relative group ${
-                  isScrolled ? 'text-primary-700 hover:text-secondary-600' : 'text-white hover:text-secondary-400'
-                }`}
-                initial={{ opacity: 0, y: -20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.7 + index * 0.1 }}
-                whileHover={{ y: -2 }}
-              >
-                {item.label}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-secondary-500 transition-all duration-300 group-hover:w-full"></span>
-              </motion.a>
-            ))}
-          </nav>
+          <div className="hidden lg:flex items-center space-x-6">
+            <nav className="flex items-center space-x-8">
+              {navigationItemKeys.map((key, index) => (
+                <motion.a
+                  key={key}
+                  href={`#${key}`}
+                  className={`font-inter font-medium transition-colors relative group ${
+                    isScrolled ? 'text-primary-700 hover:text-secondary-600' : 'text-white hover:text-secondary-400'
+                  }`}
+                  initial={{ opacity: 0, y: -20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.7 + index * 0.1 }}
+                  whileHover={{ y: -2 }}
+                >
+                  {t(`header.nav.${key}`)}
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-secondary-500 transition-all duration-300 group-hover:w-full"></span>
+                </motion.a>
+              ))}
+            </nav>
 
-          {/* CTA Button */}
-          <motion.button
-            className="hidden lg:block bg-gradient-to-r from-secondary-600 to-secondary-500 text-white px-6 py-3 rounded-lg font-inter font-semibold hover:shadow-lg transition-all duration-300 animate-pulse-glow"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 1.2 }}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Get Quote
-          </motion.button>
+            <LanguageSwitcher />
 
-          {/* Mobile Menu Button */}
-          <button
-            className="lg:hidden"
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          >
+            <motion.button
+              className="bg-gradient-to-r from-secondary-600 to-secondary-500 text-white px-6 py-3 rounded-lg font-inter font-semibold hover:shadow-lg transition-all duration-300 animate-pulse-glow"
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 1.2 }}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              {t('header.get_quote_button')}
+            </motion.button>
+          </div>
+          
+          <button className="lg:hidden" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
             {isMobileMenuOpen ? (
               <X className={`w-6 h-6 ${isScrolled ? 'text-primary-600' : 'text-white'}`} />
             ) : (
@@ -102,7 +94,6 @@ const Header: React.FC = () => {
           </button>
         </div>
 
-        {/* Mobile Menu */}
         <AnimatePresence>
           {isMobileMenuOpen && (
             <motion.div
@@ -112,26 +103,29 @@ const Header: React.FC = () => {
               className="lg:hidden mt-4 pb-4"
             >
               <div className="bg-white rounded-lg shadow-xl border border-accent-200 p-4">
-                {navigationItems.map((item, index) => (
+                {navigationItemKeys.map((key, index) => (
                   <motion.a
-                    key={item.label}
-                    href={item.href}
+                    key={key}
+                    href={`#${key}`}
                     className="block py-3 text-primary-700 hover:text-secondary-600 font-inter font-medium border-b border-accent-100 last:border-0"
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: index * 0.1 }}
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    {item.label}
+                    {t(`header.nav.${key}`)}
                   </motion.a>
                 ))}
+                <div className="mt-4 pt-4 border-t border-accent-100 flex justify-center">
+                  <LanguageSwitcher />
+                </div>
                 <motion.button
                   className="w-full mt-4 bg-gradient-to-r from-secondary-600 to-secondary-500 text-white py-3 rounded-lg font-inter font-semibold"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.6 }}
                 >
-                  Get Quote
+                  {t('header.get_quote_button')}
                 </motion.button>
               </div>
             </motion.div>
