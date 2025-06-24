@@ -34,6 +34,20 @@
       }
     }
   },
+  "about_modal": {
+    "main_title": "G-Coresteel",
+    "philosophy_title": "Our Philosophy of Excellence",
+    "philosophy_p1": "As part of a multinational group, EasyCore aims to offer all its clients and business partners continuous support and the best results in each stage of the production process for high-quality magnetic cores.",
+    "philosophy_p2": "Our philosophy of excellence is based on providing the best solution, from the procurement of high-quality electrical steel to the delivery of the finished core. We serve a global network from our locations in Germany and Turkey.",
+    "capacity_title": "Our Production Capacity",
+    "capacity_card1_title": "Distribution Transformers",
+    "capacity_card1_desc": "From 25 KVA up to 6 MVA",
+    "capacity_card2_title": "Power Transformers",
+    "capacity_card2_desc": "6 MVA and above",
+    "capacity_card3_title": "Magnetic Flux Collectors",
+    "capacity_card3_desc": "Custom manufacturing for high efficiency",
+    "final_paragraph": "Our engineering team meticulously examines technical drawings from our clients, maintaining continuous communication from the initial order to the end of the production process to deliver tailor-made solutions."
+  },
   "services": {
     "button_cta": "Request Custom Solution",
     "cards": {
