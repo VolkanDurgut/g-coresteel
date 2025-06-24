@@ -140,7 +140,7 @@ const About: React.FC = () => {
         </div>
       </section>
 
-      {/* Yeniden Tasarlanmış Modal Yapısı */}
+      {/* Yeniden Tasarlanmış ve Dinamik Metinli Modal Yapısı */}
       <AnimatePresence>
         {isModalOpen && (
           <motion.div
@@ -160,7 +160,7 @@ const About: React.FC = () => {
             >
               <div className="p-6 md:p-8">
                 <div className="flex justify-between items-start mb-6">
-                  <h2 className="text-3xl font-poppins font-bold text-primary-700">G-Coresteel Felsefesi</h2>
+                  <h2 className="text-3xl font-poppins font-bold text-primary-700">{t('about_modal.main_title')}</h2>
                   <button onClick={() => setIsModalOpen(false)} className="text-primary-400 hover:text-primary-600 transition-colors">
                     <X className="w-8 h-8"/>
                   </button>
@@ -172,38 +172,38 @@ const About: React.FC = () => {
                 </div>
 
                 <div>
-                  <h3 className="text-2xl font-poppins font-bold text-primary-700 mb-3">Mükemmellik Felsefemiz</h3>
+                  <h3 className="text-2xl font-poppins font-bold text-primary-700 mb-3">{t('about_modal.philosophy_title')}</h3>
                   <p className="text-primary-600 font-inter mb-4 leading-relaxed">
-                    EasyCore, çok uluslu bir grubun parçası olarak, tüm müşterilerine ve iş ortaklarına geniş bir transformatör yelpazesi için yüksek kaliteli manyetik nüvelerin üretim sürecinin her aşamasında sürekli destek ve en iyi sonuçları sunmayı amaçlamaktadır.
+                    {t('about_modal.philosophy_p1')}
                   </p>
                   <p className="text-primary-600 font-inter mb-8 leading-relaxed">
-                    Mükemmellik felsefemiz, yüksek kaliteli elektrik çeliğinin tedarikinden bitmiş ürünün teslimatına kadar her adımda en iyi çözümü sağlamaya dayanmaktadır. Almanya ve Türkiye'deki lokasyonlarımızla küresel bir ağa hizmet veriyoruz.
+                    {t('about_modal.philosophy_p2')}
                   </p>
                 </div>
 
                 <div>
-                  <h3 className="text-2xl font-poppins font-bold text-primary-700 mb-6">Üretim Kapasitemiz</h3>
+                  <h3 className="text-2xl font-poppins font-bold text-primary-700 mb-6">{t('about_modal.capacity_title')}</h3>
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-8">
                     <div className="bg-accent-50/70 p-5 rounded-xl border border-accent-100 text-center hover:border-secondary-300 hover:bg-accent-100 transition-all">
                       <Package className="w-10 h-10 text-secondary-600 mb-3 mx-auto" />
-                      <h4 className="font-poppins font-semibold text-primary-700">Dağıtım Transformatörleri</h4>
-                      <p className="text-sm text-primary-600">25 KVA'dan 6 MVA'ya kadar</p>
+                      <h4 className="font-poppins font-semibold text-primary-700">{t('about_modal.capacity_card1_title')}</h4>
+                      <p className="text-sm text-primary-600">{t('about_modal.capacity_card1_desc')}</p>
                     </div>
                     <div className="bg-accent-50/70 p-5 rounded-xl border border-accent-100 text-center hover:border-secondary-300 hover:bg-accent-100 transition-all">
                       <Zap className="w-10 h-10 text-secondary-600 mb-3 mx-auto" />
-                      <h4 className="font-poppins font-semibold text-primary-700">Güç Transformatörleri</h4>
-                      <p className="text-sm text-primary-600">6 MVA ve üzeri kapasitelerde</p>
+                      <h4 className="font-poppins font-semibold text-primary-700">{t('about_modal.capacity_card2_title')}</h4>
+                      <p className="text-sm text-primary-600">{t('about_modal.capacity_card2_desc')}</p>
                     </div>
                     <div className="bg-accent-50/70 p-5 rounded-xl border border-accent-100 text-center hover:border-secondary-300 hover:bg-accent-100 transition-all">
                       <Shield className="w-10 h-10 text-secondary-600 mb-3 mx-auto" />
-                      <h4 className="font-poppins font-semibold text-primary-700">Manyetik Akı Toplayıcıları</h4>
-                      <p className="text-sm text-primary-600">Yüksek verimlilik için özel üretim</p>
+                      <h4 className="font-poppins font-semibold text-primary-700">{t('about_modal.capacity_card3_title')}</h4>
+                      <p className="text-sm text-primary-600">{t('about_modal.capacity_card3_desc')}</p>
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-gradient-to-r from-primary-50 to-accent-100 p-6 rounded-xl border border-accent-200">
-                   <p className="text-primary-700 font-inter font-medium text-center text-lg">Mühendis ekibimiz, müşterilerimizden gelen teknik çizimleri titizlikle inceler ve üretim sürecinin başından sonuna kadar sürekli iletişim halinde kalarak projeye özel çözümler sunar.</p>
+                   <p className="text-primary-700 font-inter font-medium text-center text-lg">{t('about_modal.final_paragraph')}</p>
                 </div>
 
               </div>
