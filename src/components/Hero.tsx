@@ -87,9 +87,11 @@ const Hero: React.FC = () => {
               {t('hero.button_primary')}
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </motion.button>
-            <motion.button className="border-2 border-white text-white px-8 py-4 rounded-lg font-inter font-semibold text-lg hover:bg-white hover:text-primary-700 transition-all duration-300 backdrop-blur-sm bg-white/10" whileHover={{ scale: 1.05, y: -2 }} whileTap={{ scale: 0.95 }}>
-              {t('hero.button_secondary')}
-            </motion.button>
+            <a href="/contact">
+              <motion.button className="border-2 border-white text-white px-8 py-4 rounded-lg font-inter font-semibold text-lg hover:bg-white hover:text-primary-700 transition-all duration-300 backdrop-blur-sm bg-white/10" whileHover={{ scale: 1.05, y: -2 }} whileTap={{ scale: 0.95 }}>
+                {t('hero.button_secondary')}
+              </motion.button>
+            </a>
           </motion.div>
           <motion.div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto" initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 1.4 }}>
             {statsData.map((stat, index) => (
