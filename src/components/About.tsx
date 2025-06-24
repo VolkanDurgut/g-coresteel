@@ -2,10 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Wrench, Zap, Factory, Globe, BarChart3, Users } from 'lucide-react';
-import { useTranslation } from 'react-i18next'; // Hook'u import et
+import { useTranslation } from 'react-i18next';
+// Adım 1: Görseli import ediyoruz
+import aboutImage from '../assets/gcoresteel-about.jpg'; 
 
 const About: React.FC = () => {
-  const { t } = useTranslation(); // t fonksiyonunu kullanıma hazırla
+  const { t } = useTranslation();
 
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -34,19 +36,15 @@ const About: React.FC = () => {
               transition={{ duration: 0.8 }}
             >
               <div className="relative">
-                <div className="aspect-[4/3] bg-gradient-to-br from-primary-100 to-accent-100 rounded-2xl overflow-hidden shadow-2xl">
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary-600/20 to-secondary-600/20"></div>
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-center">
-                      <Factory className="w-24 h-24 text-primary-600 mx-auto mb-4" />
-                      <p className="text-primary-700 font-inter font-semibold text-lg">
-                        {t('about.image_title')}
-                      </p>
-                      <p className="text-primary-600 font-inter">
-                        {t('about.image_location')}
-                      </p>
-                    </div>
-                  </div>
+                {/* Adım 2: Mevcut ikon bloğunu `img` etiketi ile değiştiriyoruz */}
+                <div className="aspect-[4/3] bg-gray-200 rounded-2xl overflow-hidden shadow-2xl">
+                  <img 
+                    src={aboutImage} 
+                    alt="G-Coresteel Transformatör Nüve İmalatı" 
+                    className="w-full h-full object-cover"
+                  />
+                   {/* Okunurluk için hafif bir karartma efekti */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary-800/20 to-transparent"></div>
                 </div>
                 <motion.div
                   className="absolute -top-6 -right-6 bg-white rounded-xl shadow-xl p-4 border border-accent-200"
