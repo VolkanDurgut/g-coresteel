@@ -19,6 +19,27 @@ const Header: React.FC = () => {
 
   const navigationItemKeys = ['home', 'about', 'services', 'projects', 'innovation', 'contact'];
 
+  // Sayfa içi yumuşak kaydırma fonksiyonu
+  const handleScrollTo = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
+    // Eğer hedef ID '#' ile başlamıyorsa, normal link davranışına izin ver
+    if (!targetId.startsWith('#')) {
+      return;
+    }
+    e.preventDefault();
+    const id = targetId.substring(1); // # karakterini kaldır
+    const element = document.getElementById(id);
+    if (element) {
+      window.scrollTo({
+        top: element.offsetTop - 80, // Header yüksekliği için boşluk
+        behavior: 'smooth'
+      });
+    }
+    // Mobil menü açıksa kapat
+    if (isMobileMenuOpen) {
+      setIsMobileMenuOpen(false);
+    }
+  };
+
   return (
     <motion.header
       className={`fixed w-full top-0 z-40 transition-all duration-300 ${
@@ -32,32 +53,35 @@ const Header: React.FC = () => {
     >
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <motion.div 
-            className="flex items-center space-x-3"
-            whileHover={{ scale: 1.05 }}
-            transition={{ type: "spring", stiffness: 400, damping: 10 }}
-          >
-            <div className="relative">
-              <Settings className={`w-10 h-10 ${isScrolled ? 'text-primary-600' : 'text-white'} animate-rotate-slow`} />
-              <Zap className={`absolute inset-0 w-6 h-6 m-auto ${isScrolled ? 'text-secondary-600' : 'text-secondary-400'}`} />
-            </div>
-            <div>
-              <h1 className={`text-2xl font-poppins font-bold ${isScrolled ? 'text-primary-600' : 'text-white'}`}>
-                G-CORESTEEL
-              </h1>
-              <p className={`text-xs ${isScrolled ? 'text-primary-500' : 'text-white/80'} font-inter`}>
-                {t('header.tagline')}
-              </p>
-            </div>
-          </motion.div>
-
+          <a href="/#home" onClick={(e) => handleScrollTo(e, '#home')}>
+            <motion.div 
+              className="flex items-center space-x-3 cursor-pointer"
+              whileHover={{ scale: 1.05 }}
+              transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            >
+              <div className="relative">
+                <Settings className={`w-10 h-10 ${isScrolled ? 'text-primary-600' : 'text-white'} animate-rotate-slow`} />
+                <Zap className={`absolute inset-0 w-6 h-6 m-auto ${isScrolled ? 'text-secondary-600' : 'text-secondary-400'}`} />
+              </div>
+              <div>
+                <h1 className={`text-2xl font-poppins font-bold ${isScrolled ? 'text-primary-600' : 'text-white'}`}>
+                  G-CORESTEEL
+                </h1>
+                <p className={`text-xs ${isScrolled ? 'text-primary-500' : 'text-white/80'} font-inter`}>
+                  {t('header.tagline')}
+                </p>
+              </div>
+            </motion.div>
+          </a>
+          
           <div className="hidden lg:flex items-center space-x-6">
             <nav className="flex items-center space-x-8">
               {navigationItemKeys.map((key, index) => (
                 <motion.a
                   key={key}
-                  href={`#${key}`}
-                  className={`font-inter font-medium transition-colors relative group ${
+                  href={key === 'contact' ? '/contact' : `/#${key}`}
+                  onClick={(e) => handleScrollTo(e, key === 'contact' ? '/contact' : `#${key}`)}
+                  className={`font-inter font-medium transition-colors relative group cursor-pointer ${
                     isScrolled ? 'text-primary-700 hover:text-secondary-600' : 'text-white hover:text-secondary-400'
                   }`}
                   initial={{ opacity: 0, y: -20 }}
@@ -72,17 +96,19 @@ const Header: React.FC = () => {
             </nav>
 
             <LanguageSwitcher />
-
-            <motion.button
-              className="bg-gradient-to-r from-secondary-600 to-secondary-500 text-white px-6 py-3 rounded-lg font-inter font-semibold hover:shadow-lg transition-all duration-300 animate-pulse-glow"
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 1.2 }}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              {t('header.get_quote_button')}
-            </motion.button>
+            
+            <a href="/contact">
+                <motion.button
+                className="bg-gradient-to-r from-secondary-600 to-secondary-500 text-white px-6 py-3 rounded-lg font-inter font-semibold hover:shadow-lg transition-all duration-300 animate-pulse-glow"
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ delay: 1.2 }}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                >
+                {t('header.get_quote_button')}
+                </motion.button>
+            </a>
           </div>
           
           <button className="lg:hidden" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
@@ -106,12 +132,12 @@ const Header: React.FC = () => {
                 {navigationItemKeys.map((key, index) => (
                   <motion.a
                     key={key}
-                    href={`#${key}`}
+                    href={key === 'contact' ? '/contact' : `/#${key}`}
+                    onClick={(e) => handleScrollTo(e, key === 'contact' ? '/contact' : `#${key}`)}
                     className="block py-3 text-primary-700 hover:text-secondary-600 font-inter font-medium border-b border-accent-100 last:border-0"
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: index * 0.1 }}
-                    onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {t(`header.nav.${key}`)}
                   </motion.a>
@@ -119,14 +145,16 @@ const Header: React.FC = () => {
                 <div className="mt-4 pt-4 border-t border-accent-100 flex justify-center">
                   <LanguageSwitcher />
                 </div>
-                <motion.button
-                  className="w-full mt-4 bg-gradient-to-r from-secondary-600 to-secondary-500 text-white py-3 rounded-lg font-inter font-semibold"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.6 }}
-                >
-                  {t('header.get_quote_button')}
-                </motion.button>
+                <a href="/contact">
+                    <motion.button
+                    className="w-full mt-4 bg-gradient-to-r from-secondary-600 to-secondary-500 text-white py-3 rounded-lg font-inter font-semibold"
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.6 }}
+                    >
+                    {t('header.get_quote_button')}
+                    </motion.button>
+                </a>
               </div>
             </motion.div>
           )}
