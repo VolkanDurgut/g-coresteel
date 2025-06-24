@@ -1,20 +1,22 @@
-import React, { Suspense } from 'react';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Routes, Route } from 'react-router-dom'; // Router bileşenlerini ekliyoruz
+import LoadingAnimation from './components/LoadingAnimation';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Contact from './components/Contact';
+
+// Anasayfada gösterilecek tüm bölümleri bir araya getiren yeni bir bileşen oluşturuyoruz
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
-import Projects from './components/Projects';
 import TechnicalSpecs from './components/TechnicalSpecs';
+import Projects from './components/Projects';
 import Innovation from './components/Innovation';
 import CertificatesGallery from './components/CertificatesGallery';
 import TeamShowcase from './components/TeamShowcase';
 import DownloadCenter from './components/DownloadCenter';
-import Contact from './components/Contact';
-import LoadingAnimation from './components/LoadingAnimation'; // Eğer kullanılıyorsa
 
-// Anasayfada gösterilecek tüm bölümleri bir araya getiren bir bileşen
+// Bu, sadece anasayfa içeriğini barındıracak.
 const HomePage = () => {
   return (
     <>
@@ -24,35 +26,56 @@ const HomePage = () => {
       <TechnicalSpecs />
       <Projects />
       <Innovation />
-      <TeamShowcase />
       <CertificatesGallery />
+      <TeamShowcase />
       <DownloadCenter />
+      {/* ÖNEMLİ: Contact bileşenini buradan kaldırdık çünkü artık kendi sayfası var */}
     </>
   );
 };
 
-
-// Ana App bileşeni
+// Ana App bileşeninin yeni hali
 function App() {
-  return (
-    // BrowserRouter tüm uygulamayı sarmalı
-    <BrowserRouter> 
-      {/* Header ve Footer tüm sayfalarda ortak olacağı için Routes dışında kalabilir */}
-      <Header />
-      
-      <main>
-        {/* Routes: Adres çubuğundaki yola göre hangi bileşenin render edileceğini belirler */}
-        <Routes>
-          {/* Adres "/" ise HomePage bileşenini göster */}
-          <Route path="/" element={<HomePage />} />
-          
-          {/* Adres "/contact" ise SADECE Contact bileşenini göster */}
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </main>
+  const [showLoading, setShowLoading] = useState(true);
+  const [loadingComplete, setLoadingComplete] = useState(false);
 
-      <Footer />
-    </BrowserRouter>
+  useEffect(() => {
+    const hasSeenAnimation = localStorage.getItem('g-coresteel-animation-seen');
+    if (hasSeenAnimation) {
+      setShowLoading(false);
+      setLoadingComplete(true);
+    }
+  }, []);
+
+  const handleLoadingComplete = () => {
+    setShowLoading(false);
+    setLoadingComplete(true);
+    localStorage.setItem('g-coresteel-animation-seen', 'true');
+  };
+
+  return (
+    <div className="min-h-screen bg-white">
+      {showLoading && <LoadingAnimation onComplete={handleLoadingComplete} />}
+
+      {/* Main Website Content */}
+      {loadingComplete && (
+        <>
+          {/* Header ve Footer tüm sayfalarda ortak olacak */}
+          <Header />
+          <main>
+            {/* Routes, URL'e göre hangi sayfanın gösterileceğini belirler */}
+            <Routes>
+              {/* Ana yol ("/") için HomePage bileşenini göster */}
+              <Route path="/" element={<HomePage />} />
+              
+              {/* "/contact" yolu için Contact bileşenini göster */}
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
+          </main>
+          <Footer />
+        </>
+      )}
+    </div>
   );
 }
 
