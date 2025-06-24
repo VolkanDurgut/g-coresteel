@@ -73,7 +73,8 @@ const Header: React.FC = () => {
 
             <LanguageSwitcher />
 
-            <motion.button
+            <motion.a
+              href="#contact"
               className="bg-gradient-to-r from-secondary-600 to-secondary-500 text-white px-6 py-3 rounded-lg font-inter font-semibold hover:shadow-lg transition-all duration-300 animate-pulse-glow"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -82,7 +83,7 @@ const Header: React.FC = () => {
               whileTap={{ scale: 0.95 }}
             >
               {t('header.get_quote_button')}
-            </motion.button>
+            </motion.a>
           </div>
           
           <button className="lg:hidden" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
@@ -119,14 +120,16 @@ const Header: React.FC = () => {
                 <div className="mt-4 pt-4 border-t border-accent-100 flex justify-center">
                   <LanguageSwitcher />
                 </div>
-                <motion.button
-                  className="w-full mt-4 bg-gradient-to-r from-secondary-600 to-secondary-500 text-white py-3 rounded-lg font-inter font-semibold"
+                <motion.a
+                  href="#contact"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="w-full mt-4 bg-gradient-to-r from-secondary-600 to-secondary-500 text-white py-3 rounded-lg font-inter font-semibold block text-center"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.6 }}
                 >
                   {t('header.get_quote_button')}
-                </motion.button>
+                </motion.a>
               </div>
             </motion.div>
           )}
