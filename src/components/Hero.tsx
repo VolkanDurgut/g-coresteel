@@ -112,10 +112,15 @@ const Hero: React.FC = () => {
           </motion.div>
         </div>
         <motion.div className="absolute bottom-8 left-1/2 transform -translate-x-1/2" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 2.5 }}>
-          <motion.div animate={{ y: [0, 10, 0] }} transition={{ duration: 2, repeat: Infinity }} className="flex flex-col items-center gap-2 text-white/60 hover:text-white transition-colors cursor-pointer">
+          <motion.a 
+            href="#about"
+            animate={{ y: [0, 10, 0] }} 
+            transition={{ duration: 2, repeat: Infinity }} 
+            className="flex flex-col items-center gap-2 text-white/60 hover:text-white transition-colors cursor-pointer"
+          >
             <span className="text-sm font-inter">{t('hero.scroll_text')}</span>
             <ChevronDown className="w-6 h-6" />
-          </motion.div>
+          </motion.a>
         </motion.div>
       </div>
     </section>
