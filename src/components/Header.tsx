@@ -3,14 +3,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { Menu, X, Zap, Settings } from 'lucide-react';
 import LanguageSwitcher from './LanguageSwitcher';
-import { useNavigate, useLocation } from 'react-router-dom';
 
 const Header: React.FC = () => {
   const { t } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const navigate = useNavigate();
-  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,31 +18,6 @@ const Header: React.FC = () => {
   }, []);
 
   const navigationItemKeys = ['home', 'about', 'services', 'projects', 'innovation', 'contact'];
-
-  const handleNavigate = (key: string) => {
-    if (isMobileMenuOpen) {
-      setIsMobileMenuOpen(false);
-    }
-
-    if (key === 'contact') {
-      navigate('/contact');
-      return;
-    }
-
-    // Eğer zaten anasayfadaysak, sadece ilgili bölüme kaydır
-    if (location.pathname === '/') {
-      const element = document.getElementById(key);
-      if (element) {
-        window.scrollTo({
-          top: element.offsetTop - 80, // Header yüksekliği için pay
-          behavior: 'smooth',
-        });
-      }
-    } else {
-      // Başka bir sayfadaysak, anasayfaya dön ve hedefe git
-      navigate(`/#${key}`);
-    }
-  };
 
   return (
     <motion.header
@@ -60,16 +32,15 @@ const Header: React.FC = () => {
     >
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <button onClick={() => handleNavigate('home')} className="flex items-center space-x-3 text-left">
-            <motion.div 
-              whileHover={{ scale: 1.05 }}
-              transition={{ type: "spring", stiffness: 400, damping: 10 }}
-            >
-              <div className="relative">
-                <Settings className={`w-10 h-10 ${isScrolled ? 'text-primary-600' : 'text-white'} animate-rotate-slow`} />
-                <Zap className={`absolute inset-0 w-6 h-6 m-auto ${isScrolled ? 'text-secondary-600' : 'text-secondary-400'}`} />
-              </div>
-            </motion.div>
+          <motion.div 
+            className="flex items-center space-x-3"
+            whileHover={{ scale: 1.05 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+          >
+            <div className="relative">
+              <Settings className={`w-10 h-10 ${isScrolled ? 'text-primary-600' : 'text-white'} animate-rotate-slow`} />
+              <Zap className={`absolute inset-0 w-6 h-6 m-auto ${isScrolled ? 'text-secondary-600' : 'text-secondary-400'}`} />
+            </div>
             <div>
               <h1 className={`text-2xl font-poppins font-bold ${isScrolled ? 'text-primary-600' : 'text-white'}`}>
                 G-CORESTEEL
@@ -78,14 +49,14 @@ const Header: React.FC = () => {
                 {t('header.tagline')}
               </p>
             </div>
-          </button>
+          </motion.div>
 
           <div className="hidden lg:flex items-center space-x-6">
             <nav className="flex items-center space-x-8">
               {navigationItemKeys.map((key, index) => (
-                <motion.button
+                <motion.a
                   key={key}
-                  onClick={() => handleNavigate(key)}
+                  href={`#${key}`}
                   className={`font-inter font-medium transition-colors relative group ${
                     isScrolled ? 'text-primary-700 hover:text-secondary-600' : 'text-white hover:text-secondary-400'
                   }`}
@@ -96,14 +67,13 @@ const Header: React.FC = () => {
                 >
                   {t(`header.nav.${key}`)}
                   <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-secondary-500 transition-all duration-300 group-hover:w-full"></span>
-                </motion.button>
+                </motion.a>
               ))}
             </nav>
 
             <LanguageSwitcher />
 
             <motion.button
-              onClick={() => handleNavigate('contact')}
               className="bg-gradient-to-r from-secondary-600 to-secondary-500 text-white px-6 py-3 rounded-lg font-inter font-semibold hover:shadow-lg transition-all duration-300 animate-pulse-glow"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -134,22 +104,22 @@ const Header: React.FC = () => {
             >
               <div className="bg-white rounded-lg shadow-xl border border-accent-200 p-4">
                 {navigationItemKeys.map((key, index) => (
-                  <motion.button
+                  <motion.a
                     key={key}
-                    onClick={() => handleNavigate(key)}
-                    className="w-full text-left block py-3 text-primary-700 hover:text-secondary-600 font-inter font-medium border-b border-accent-100 last:border-0"
+                    href={`#${key}`}
+                    className="block py-3 text-primary-700 hover:text-secondary-600 font-inter font-medium border-b border-accent-100 last:border-0"
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: index * 0.1 }}
+                    onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {t(`header.nav.${key}`)}
-                  </motion.button>
+                  </motion.a>
                 ))}
                 <div className="mt-4 pt-4 border-t border-accent-100 flex justify-center">
                   <LanguageSwitcher />
                 </div>
                 <motion.button
-                  onClick={() => handleNavigate('contact')}
                   className="w-full mt-4 bg-gradient-to-r from-secondary-600 to-secondary-500 text-white py-3 rounded-lg font-inter font-semibold"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
