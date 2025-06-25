@@ -34,14 +34,14 @@ const Projects: React.FC = () => {
       key: 'power_plant',
       icon: Factory,
       image: imgPowerPlant,
-      specs: { power: '50MVA', efficiency: '99.2%', duration: '6 months' },
+      specs: { power: '20MVA', efficiency: '99.2%', duration: '6 months' },
       color: 'from-primary-500 to-primary-600'
     },
     {
       key: 'industrial_complex',
       icon: Building,
       image: imgIndustrial,
-      specs: { units: '25 transformers', solution: 'Customized', savings: '15% energy' },
+      specs: { units: '2500 KVA', solution: 'Customized', savings: '15% energy' },
       color: 'from-secondary-500 to-secondary-600'
     },
     {
