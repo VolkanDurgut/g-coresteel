@@ -1,2 +1,2 @@
 # g-coresteel
-G-Core Steel - Official Website
+G-CoreSteel - Official Website
