@@ -13,6 +13,12 @@ import {
 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
+// 1. Adım: Proje görsellerini import ediyoruz
+import imgPowerPlant from '../assets/project-power-plant.jpg';
+import imgIndustrial from '../assets/project-industrial.jpg';
+import imgInfrastructure from '../assets/project-infrastructure.jpg';
+import imgRenewable from '../assets/project-renewable.jpg';
+
 const Projects: React.FC = () => {
   const { t } = useTranslation();
   const [ref, inView] = useInView({
@@ -22,35 +28,38 @@ const Projects: React.FC = () => {
 
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
 
-  // Proje verileri, i18n anahtarlarıyla birlikte modern tasarımın renklerini kullanır
+  // 2. Adım: Veri yapısına 'image' alanını ekliyoruz
   const projects = [
     {
       key: 'power_plant',
       icon: Factory,
+      image: imgPowerPlant,
       specs: { power: '50MVA', efficiency: '99.2%', duration: '6 months' },
       color: 'from-primary-500 to-primary-600'
     },
     {
       key: 'industrial_complex',
       icon: Building,
+      image: imgIndustrial,
       specs: { units: '25 transformers', solution: 'Customized', savings: '15% energy' },
       color: 'from-secondary-500 to-secondary-600'
     },
     {
       key: 'infrastructure',
       icon: Construction,
+      image: imgInfrastructure,
       specs: { scope: 'City grid', units: '100+ units', warranty: '2 years' },
       color: 'from-primary-600 to-secondary-500'
     },
     {
       key: 'renewable_energy',
       icon: Battery,
+      image: imgRenewable,
       specs: { type: 'Solar farm', connection: 'Grid tie', integration: 'Smart grid' },
       color: 'from-green-500 to-green-600'
     }
   ];
 
-  // Referans verileri için anahtarlar ve derecelendirme (rating) bilgisi
   const testimonialKeys = ['mehmet_yilmaz', 'sarah_johnson', 'ahmed_al_rashid'];
   const testimonialRatings: { [key: string]: number } = {
     mehmet_yilmaz: 5,
@@ -80,7 +89,7 @@ const Projects: React.FC = () => {
             </p>
           </motion.div>
 
-          {/* Projects Grid (Modern Tasarım) */}
+          {/* Projects Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
             {projects.map((project, index) => (
               <motion.div
@@ -91,11 +100,10 @@ const Projects: React.FC = () => {
                 transition={{ duration: 0.8, delay: 0.2 + index * 0.1 }}
               >
                 <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border border-accent-200/50 group-hover:border-secondary-500/30">
-                  <div className={`h-48 bg-gradient-to-br ${project.color} relative overflow-hidden`}>
-                    <div className="absolute inset-0 bg-black/20"></div>
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <project.icon className="w-16 h-16 text-white/80" />
-                    </div>
+                  {/* 3. Adım: İkon yerine 'img' etiketini kullanıyoruz */}
+                  <div className={`h-48 bg-gray-300 relative overflow-hidden`}>
+                    <img src={project.image} alt={t(`projects.cards.${project.key}.title`)} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+                    <div className="absolute inset-0 bg-black/30"></div>
                     <div className="absolute top-4 right-4">
                       <span className="bg-white/20 backdrop-blur-sm text-white text-xs font-inter px-3 py-1 rounded-full">
                         {t(`projects.cards.${project.key}.category`)}
@@ -133,7 +141,7 @@ const Projects: React.FC = () => {
             ))}
           </div>
 
-          {/* Testimonials Slider (Modern Tasarım) */}
+          {/* Testimonials Slider */}
           <motion.div
             className="bg-white rounded-2xl shadow-xl p-8 border border-accent-200/50"
             initial={{ opacity: 0, y: 50 }}
