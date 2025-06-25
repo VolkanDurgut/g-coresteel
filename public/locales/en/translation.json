@@ -1,655 +1,655 @@
 {
   "about": {
-    "button_cta": "Learn More About Us",
-    "description": "With our groundbreaking solutions in the energy sector, we enhance our clients' operational efficiency, optimize their costs, and contribute to a sustainable future. Our commitment to excellence drives every aspect of our manufacturing process.",
-    "image_location": "Istanbul, Turkey",
-    "image_title": "Modern Manufacturing Facility",
-    "stats_certified": "Certified",
-    "stats_quality": "Quality Rate",
-    "title": "Why G-Coresteel?",
+    "button_cta": "Hakkımızda Daha Fazla Bilgi",
+    "description": "Enerji sektöründeki çığır açan çözümlerimizle müşterilerimizin operasyonel verimliliğini artırıyor, maliyetlerini optimize ediyor ve sürdürülebilir bir geleceğe katkıda bulunuyoruz. Mükemmelliğe olan bağlılığımız, üretim sürecimizin her aşamasına yön vermektedir.",
+    "image_location": "İstanbul, Türkiye",
+    "image_title": "Modern Üretim Tesisi",
+    "stats_certified": "Sertifikalı",
+    "stats_quality": "Kalite Oranı",
+    "title": "Neden G-Coresteel?",
     "values": {
       "innovative": {
-        "description": "Forward-thinking approaches to energy challenges",
-        "title": "Innovative Solutions"
+        "description": "Enerji zorluklarına ileri görüşlü yaklaşımlar",
+        "title": "Yenilikçi Çözümler"
       },
       "performance": {
-        "description": "Optimized efficiency and measurable results",
-        "title": "Performance-Driven"
+        "description": "Optimize edilmiş verimlilik ve ölçülebilir sonuçlar",
+        "title": "Performans Odaklılık"
       },
       "reliability": {
-        "description": "Robust systems built for demanding environments",
-        "title": "Industrial Reliability"
+        "description": "Zorlu ortamlar için üretilmiş sağlam sistemler",
+        "title": "Endüstriyel Güvenilirlik"
       },
       "satisfaction": {
-        "description": "Dedicated partnership and superior service",
-        "title": "Customer Satisfaction"
+        "description": "Adanmış ortaklık ve üstün hizmet",
+        "title": "Müşteri Memnuniyeti"
       },
       "sustainable": {
-        "description": "Environmentally conscious power solutions",
-        "title": "Sustainable Energy"
+        "description": "Çevreye duyarlı güç çözümleri",
+        "title": "Sürdürülebilir Enerji"
       },
       "technical": {
-        "description": "Cutting-edge engineering and precision manufacturing",
-        "title": "Technical Excellence"
+        "description": "İleri düzey mühendislik ve hassas üretim",
+        "title": "Teknik Mükemmellik"
       }
     }
   },
   "about_modal": {
     "main_title": "G-Coresteel",
-    "philosophy_title": "Our Philosophy of Excellence",
-    "philosophy_p1": "As part of a multinational group, G-Coresteel aims to offer all its clients and business partners continuous support and the best results in each stage of the production process for high-quality magnetic cores.",
-    "philosophy_p2": "Our philosophy of excellence is based on providing the best solution, from the procurement of high-quality electrical steel to the delivery of the finished core. We serve a global network from our locations in Germany and Turkey.",
-    "capacity_title": "Our Production Capacity",
-    "capacity_card1_title": "Distribution Transformers",
-    "capacity_card1_desc": "From 25 KVA up to 6 MVA",
-    "capacity_card2_title": "Power Transformers",
-    "capacity_card2_desc": "6 MVA and above",
-    "capacity_card3_title": "Magnetic Flux Collectors",
-    "capacity_card3_desc": "Custom manufacturing for high efficiency",
-    "final_paragraph": "Our engineering team meticulously examines technical drawings from our clients, maintaining continuous communication from the initial order to the end of the production process to deliver tailor-made solutions."
+    "philosophy_title": "Mükemmellik Felsefemiz",
+    "philosophy_p1": "G-Coresteel, çok uluslu bir grubun parçası olarak, tüm müşterilerine ve iş ortaklarına geniş bir transformatör yelpazesi için yüksek kaliteli manyetik nüvelerin üretim sürecinin her aşamasında sürekli destek ve en iyi sonuçları sunmayı amaçlamaktadır.",
+    "philosophy_p2": "Mükemmellik felsefemiz, yüksek kaliteli elektrik çeliğinin tedarikinden bitmiş ürünün teslimatına kadar her adımda en iyi çözümü sağlamaya dayanmaktadır. Almanya ve Türkiye'deki lokasyonlarımızla küresel bir ağa hizmet veriyoruz.",
+    "capacity_title": "Üretim Kapasitemiz",
+    "capacity_card1_title": "Dağıtım Transformatörleri",
+    "capacity_card1_desc": "25 KVA'dan 6 MVA'ya kadar",
+    "capacity_card2_title": "Güç Transformatörleri",
+    "capacity_card2_desc": "6 MVA ve üzeri kapasitelerde",
+    "capacity_card3_title": "Manyetik Akı Toplayıcıları",
+    "capacity_card3_desc": "Yüksek verimlilik için özel üretim",
+    "final_paragraph": "Mühendis ekibimiz, müşterilerimizden gelen teknik çizimleri titizlikle inceler ve üretim sürecinin başından sonuna kadar sürekli iletişim halinde kalarak projeye özel çözümler sunar."
   },
   "services": {
-    "button_cta": "Request Custom Solution",
+    "button_cta": "Özel Çözüm Talep Edin",
     "cards": {
       "consultancy": {
-        "description": "Expert analysis and consulting for energy efficiency optimization and project development.",
+        "description": "Enerji verimliliği optimizasyonu ve proje geliştirme için uzman analizi ve danışmanlık.",
         "features": [
-          "Energy efficiency analysis",
-          "System optimization",
-          "Project development consulting",
-          "Performance assessments"
+          "Enerji verimliliği analizi",
+          "Sistem optimizasyonu",
+          "Proje geliştirme danışmanlığı",
+          "Performans değerlendirmeleri"
         ],
-        "title": "Technical Consultancy"
+        "title": "Teknik Danışmanlık"
       },
       "industrial": {
-        "description": "Comprehensive power and distribution transformers for specialized industrial applications.",
+        "description": "Özelleştirilmiş endüstriyel uygulamalar için kapsamlı güç ve dağıtım transformatörleri.",
         "features": [
-          "Power transformers (1-100 MVA)",
-          "Distribution transformers",
-          "Specialized applications",
-          "Custom voltage ratings"
+          "Güç transformatörleri (1-100 MVA)",
+          "Dağıtım transformatörleri",
+          "Özel endüstriyel uygulamalar",
+          "İsteğe özel voltaj değerleri"
         ],
-        "title": "Industrial Transformer Solutions"
+        "title": "Endüstriyel Transformatör Çözümleri"
       },
       "maintenance": {
-        "description": "Comprehensive maintenance programs with emergency response and performance monitoring.",
+        "description": "Acil durum müdahalesi ve performans izleme ile kapsamlı bakım programları.",
         "features": [
-          "Periodic maintenance programs",
-          "Emergency response service",
-          "Performance monitoring systems",
-          "24/7 technical support"
+          "Periyodik bakım programları",
+          "Acil durum müdahale hizmeti",
+          "Performans izleme sistemleri",
+          "7/24 teknik destek"
         ],
-        "title": "Maintenance & Service"
+        "title": "Bakım ve Servis"
       },
       "management": {
-        "description": "End-to-end project management with timeline control and 24/7 project tracking.",
+        "description": "Zaman çizelgesi kontrolü ve 7/24 proje takibi ile uçtan uca proje yönetimi.",
         "features": [
-          "End-to-end project management",
-          "Timeline and budget control",
-          "24/7 project tracking",
-          "Regular progress reports"
+          "Uçtan uca proje yönetimi",
+          "Zaman ve bütçe kontrolü",
+          "7/24 proje takibi",
+          "Düzenli ilerleme raporları"
         ],
-        "title": "Project Management"
+        "title": "Proje Yönetimi"
       },
       "manufacturing": {
-        "description": "Custom design and production with high-efficiency technology and international quality standards.",
+        "description": "Yüksek verimli teknoloji ve uluslararası kalite standartları ile özel tasarım ve üretim.",
         "features": [
-          "Custom design and engineering",
-          "High-efficiency technology",
-          "International quality standards",
-          "Advanced cooling systems"
+          "Özel tasarım ve mühendislik",
+          "Yüksek verimlilik teknolojisi",
+          "Uluslararası kalite standartları",
+          "Gelişmiş soğutma sistemleri"
         ],
-        "title": "Core Transformer Manufacturing"
+        "title": "Nüve Transformatör İmalatı"
       },
       "quality": {
-        "description": "Rigorous quality control with international certifications and comprehensive testing.",
+        "description": "Uluslararası sertifikalar ve kapsamlı testler ile sıkı kalite kontrolü.",
         "features": [
-          "ISO 9001:2015 certified",
-          "CE conformity certified",
-          "Comprehensive testing procedures",
-          "Quality documentation"
+          "ISO 9001:2015 sertifikalı",
+          "CE uygunluk belgeli",
+          "Kapsamlı test prosedürleri",
+          "Kalite dokümantasyonu"
         ],
-        "title": "Quality Assurance"
+        "title": "Kalite Güvencesi"
       }
     },
-    "learn_more": "Learn More",
-    "section_subtitle": "From design to deployment, we provide complete transformer solutions that power industries worldwide",
-    "section_title": "Our Comprehensive Transformer Solutions & Services"
+    "learn_more": "Daha Fazla Bilgi",
+    "section_subtitle": "Tasarımdan devreye almaya, dünya çapındaki endüstrilere güç veren komple transformatör çözümleri sunuyoruz",
+    "section_title": "Kapsamlı Transformatör Çözümleri ve Hizmetlerimiz"
   },
   "technical_specs": {
-    "section_title": "Our Technical Capabilities",
-    "section_subtitle": "Detailed information about our production capacity, technological infrastructure, and quality standards.",
-    "key_advantage": "Key Advantage",
+    "section_title": "Teknik Yeteneklerimiz",
+    "section_subtitle": "Üretim kapasitemiz, teknolojik altyapımız ve kalite standartlarımız hakkında detaylı bilgiler.",
+    "key_advantage": "Temel Avantaj",
     "tabs": {
       "production_capacity": {
-        "label": "Production Capacity",
-        "title": "Production Capacity and Capabilities",
-        "advantage": "Our high-volume production capacity and efficient processes enable us to meet even the most demanding project timelines.",
+        "label": "Üretim Kapasitesi",
+        "title": "Üretim Kapasitesi ve Yetenekler",
+        "advantage": "Yüksek hacimli üretim kapasitemiz ve verimli süreçlerimiz, en zorlu proje zaman çizelgelerini bile karşılamamızı sağlar.",
         "specs": {
-          "daily_capacity": "Daily Capacity",
-          "daily_capacity_value": "Up to 5 MVA",
-          "power_range": "Power Range",
+          "daily_capacity": "Günlük Kapasite",
+          "daily_capacity_value": "5 MVA'ya kadar",
+          "power_range": "Güç Aralığı",
           "power_range_value": "1-100 MVA",
-          "lead_time": "Lead Time",
-          "lead_time_value": "4-8 Weeks",
-          "testing_rate": "Testing Rate",
-          "testing_rate_value": "10 Units per Day"
+          "lead_time": "Teslim Süresi",
+          "lead_time_value": "4-8 Hafta",
+          "testing_rate": "Test Oranı",
+          "testing_rate_value": "Günde 10 Birim"
         }
       },
       "technology_infrastructure": {
-        "label": "Technology Infrastructure",
-        "title": "Advanced Technology and Automation",
-        "advantage": "Our modern CNC park and robotic systems offer unparalleled precision and consistency in production.",
+        "label": "Teknoloji Altyapısı",
+        "title": "İleri Teknoloji ve Otomasyon",
+        "advantage": "Modern CNC parkurumuz ve robotik sistemlerimiz, üretimde benzersiz bir hassasiyet ve tutarlılık sunar.",
         "specs": {
-          "cnc_park": "CNC Park",
-          "cnc_park_value": "Fully Automated Cutting & Bending",
-          "winding_systems": "Winding Systems",
-          "winding_systems_value": "High-Precision Winding",
-          "design_simulation": "Design & Simulation",
-          "design_simulation_value": "3D Modeling and Analysis",
-          "quality_control": "Quality Control",
-          "quality_control_value": "Automated Optical Inspection"
+          "cnc_park": "CNC Parkuru",
+          "cnc_park_value": "Tam Otomatik Kesim & Büküm",
+          "winding_systems": "Sargı Sistemleri",
+          "winding_systems_value": "Yüksek Hassasiyetli Sargı",
+          "design_simulation": "Tasarım ve Simülasyon",
+          "design_simulation_value": "3D Modelleme ve Analiz",
+          "quality_control": "Kalite Kontrol",
+          "quality_control_value": "Otomatik Optik İnceleme"
         }
       },
       "material_quality": {
-        "label": "Material Quality",
-        "title": "Superior Quality Materials",
-        "advantage": "By using only the highest quality, certified materials, we guarantee the longevity and reliability of our transformers.",
+        "label": "Malzeme Kalitesi",
+        "title": "Üstün Kaliteli Malzemeler",
+        "advantage": "Sadece en yüksek kalitede, sertifikalı malzemeler kullanarak transformatörlerimizin uzun ömürlü ve güvenilir olmasını garanti ediyoruz.",
         "specs": {
-          "silicon_steel": "Silicon Steel",
-          "silicon_steel_value": "M0/M1 Grade, Low Loss",
-          "copper_windings": "Copper Windings",
-          "copper_windings_value": "99.9% Pure Electrolytic Copper",
-          "insulation_materials": "Insulation Materials",
-          "insulation_materials_value": "Thermal Class H (180°C)",
-          "environmental_coatings": "Environmental Coatings",
-          "environmental_coatings_value": "Corrosion-Resistant Paint"
+          "silicon_steel": "Silisyum Çeliği",
+          "silicon_steel_value": "M0/M1 Sınıfı, Düşük Kayıp",
+          "copper_windings": "Bakır Sargılar",
+          "copper_windings_value": "%99.9 Saf Elektrolitik Bakır",
+          "insulation_materials": "İzolasyon Malzemeleri",
+          "insulation_materials_value": "Termal Sınıf H (180°C)",
+          "environmental_coatings": "Çevresel Kaplamalar",
+          "environmental_coatings_value": "Korozyona Karşı Dayanıklı Boya"
         }
       },
       "testing_standards": {
-        "label": "Testing Standards",
-        "title": "Comprehensive Testing and Assurance",
-        "advantage": "Every transformer undergoes rigorous testing procedures that exceed international standards, ensuring flawless performance in the field.",
+        "label": "Test Standartları",
+        "title": "Kapsamlı Test ve Güvence",
+        "advantage": "Her transformatör, uluslararası standartları aşan zorlu test prosedürlerinden geçirilerek sahada kusursuz performans garanti edilir.",
         "specs": {
-          "iec_standards": "IEC Standards",
-          "iec_standards_value": "Full Compliance with IEC 60076",
-          "routine_procedures": "Routine Procedures",
-          "routine_procedures_value": "15+ Tests on Every Unit",
-          "type_test": "Type Tests",
-          "type_test_value": "Optional KEMA/CESI Reports",
-          "reliability_testing": "Reliability Testing",
-          "reliability_testing_value": "Accelerated Aging Tests"
+          "iec_standards": "IEC Standartları",
+          "iec_standards_value": "IEC 60076 Tam Uyum",
+          "routine_procedures": "Rutin Prosedürler",
+          "routine_procedures_value": "Her Birimde 15+ Test",
+          "type_test": "Tip Testleri",
+          "type_test_value": "İsteğe Bağlı KEMA/CESI Raporları",
+          "reliability_testing": "Güvenilirlik Testleri",
+          "reliability_testing_value": "Hızlandırılmış Yaşlandırma Testleri"
         }
       }
     }
   },
   "projects": {
-    "section_title": "Success Stories & Reference Projects",
-    "section_subtitle": "Proven excellence across diverse industries and challenging environments",
-    "view_details_cta": "View Project Details",
+    "section_title": "Başarı Hikayeleri ve Referans Projeler",
+    "section_subtitle": "Farklı sektörlerde ve zorlu ortamlarda kanıtlanmış mükemmellik",
+    "view_details_cta": "Proje Detaylarını Görüntüle",
     "spec_labels": {
-      "power": "Power",
-      "efficiency": "Efficiency",
-      "duration": "Duration",
-      "units": "Units",
-      "solution": "Solution",
-      "savings": "Savings",
-      "scope": "Scope",
-      "warranty": "Warranty",
-      "type": "Type",
-      "connection": "Connection",
-      "integration": "Integration"
+      "power": "Güç",
+      "efficiency": "Verimlilik",
+      "duration": "Süre",
+      "units": "Birim",
+      "solution": "Çözüm",
+      "savings": "Tasarruf",
+      "scope": "Kapsam",
+      "warranty": "Garanti",
+      "type": "Tip",
+      "connection": "Bağlantı",
+      "integration": "Entegrasyon"
     },
     "cards": {
       "power_plant": {
-        "title": "Power Plant Project",
-        "category": "Energy Generation",
-        "description": "Major power plant transformer installation with cutting-edge efficiency ratings."
+        "title": "Enerji Santrali Projesi",
+        "category": "Enerji Üretimi",
+        "description": "Son teknoloji verimlilik oranlarına sahip büyük bir enerji santrali transformatör kurulumu."
       },
       "industrial_complex": {
-        "title": "Industrial Complex",
-        "category": "Manufacturing",
-        "description": "Comprehensive transformer solution for a large-scale industrial manufacturing facility."
+        "title": "Endüstriyel Tesis",
+        "category": "İmalat",
+        "description": "Büyük ölçekli endüstriyel üretim tesisi için kapsamlı transformatör çözümü."
       },
       "infrastructure": {
-        "title": "Infrastructure Project",
-        "category": "Urban Development",
-        "description": "City-wide electrical grid reinforcement with modern transformer technology."
+        "title": "Altyapı Projesi",
+        "category": "Kentsel Gelişim",
+        "description": "Modern transformatör teknolojisi ile şehir çapında elektrik şebekesi güçlendirmesi."
       },
       "renewable_energy": {
-        "title": "Renewable Energy Integration",
-        "category": "Green Technology",
-        "description": "Solar farm transformer solutions with smart grid integration capabilities."
+        "title": "Yenilenebilir Enerji Entegrasyonu",
+        "category": "Yeşil Teknoloji",
+        "description": "Akıllı şebeke entegrasyon yeteneklerine sahip güneş enerjisi santrali transformatör çözümleri."
       }
     },
     "testimonials": {
-      "title": "What Our Clients Say",
+      "title": "Müşterilerimiz Ne Diyor?",
       "data": {
         "mehmet_yilmaz": {
-          "quote": "Working with G-Coresteel played a critical role in the success of our project. Their technical expertise and commitment to quality exceeded our expectations.",
+          "quote": "G-Coresteel ile çalışmak projemizin başarısında kritik bir rol oynadı. Teknik uzmanlıkları ve kaliteye olan bağlılıkları beklentilerimizi aştı.",
           "author": "Dr. Mehmet Yılmaz",
-          "position": "Chief Engineer",
-          "company": "TurkPower Industries"
+          "position": "Baş Mühendis",
+          "company": "TurkPower Endüstrileri"
         },
         "sarah_johnson": {
-          "quote": "The custom transformer solutions provided by G-Coresteel have significantly improved our operational efficiency and reduced our energy costs by 15%.",
+          "quote": "G-Coresteel'in sağladığı özel transformatör çözümleri, operasyonel verimliliğimizi önemli ölçüde artırdı ve enerji maliyetlerimizi %15 düşürdü.",
           "author": "Sarah Johnson",
-          "position": "Operations Director",
+          "position": "Operasyon Direktörü",
           "company": "Global Manufacturing Corp"
         },
         "ahmed_al_rashid": {
-          "quote": "Outstanding project management and technical support. G-Coresteel delivered on time and within budget while maintaining the highest quality standards.",
+          "quote": "Olağanüstü proje yönetimi ve teknik destek. G-Coresteel, en yüksek kalite standartlarını korurken zamanında ve bütçe dahilinde teslimat yaptı.",
           "author": "Ahmed Al-Rashid",
-          "position": "Project Manager",
-          "company": "Middle East Energy Solutions"
+          "position": "Proje Yöneticisi",
+          "company": "Orta Doğu Enerji Çözümleri"
         }
       }
     }
   },
   "innovation": {
-    "section_title": "The Future of Transformer Technology",
-    "section_subtitle": "Leading innovation in intelligent, sustainable, and connected power solutions",
-    "highlights_title": "Technology Highlights",
-    "highlights_subtitle": "Key technological advantages that define our innovation leadership",
-    "button_cta": "Explore Innovation Portfolio",
+    "section_title": "Transformatör Teknolojisinin Geleceği",
+    "section_subtitle": "Akıllı, sürdürülebilir ve bağlantılı güç çözümlerinde lider inovasyon",
+    "highlights_title": "Teknolojik Öne Çıkanlar",
+    "highlights_subtitle": "İnovasyon liderliğimizi tanımlayan temel teknolojik avantajlar",
+    "button_cta": "İnovasyon Portföyünü Keşfet",
     "cards": {
       "smart": {
-        "title": "Smart Transformers",
-        "subtitle": "IoT-Enabled Intelligence",
-        "description": "Next-generation transformers with integrated IoT sensors for intelligent monitoring and predictive maintenance.",
+        "title": "Trafo Çekirdeği",
+        "subtitle": "IoT Destekli Zeka",
+        "description": "Akıllı izleme ve kestirimci bakım için entegre IoT sensörlerine sahip yeni nesil transformatörler.",
         "features": [
-          "IoT-enabled monitoring",
-          "Predictive maintenance",
-          "Remote diagnostics",
-          "Real-time analytics"
+          "IoT destekli izleme",
+          "Kestirimci bakım",
+          "Uzaktan teşhis",
+          "Gerçek zamanlı analitik"
         ]
       },
       "eco": {
-        "title": "Eco-Friendly Solutions",
-        "subtitle": "Sustainable Technology",
-        "description": "Environmentally conscious transformer solutions designed for sustainability and reduced environmental impact.",
+        "title": "Çevre Dostu Çözümler",
+        "subtitle": "Sürdürülebilirlik Teknolojisi",
+        "description": "Sürdürülebilirlik ve azaltılmış çevresel etki için tasarlanmış çevreye duyarlı transformatör çözümleri.",
         "features": [
-          "Energy-efficient designs",
-          "Recyclable materials",
-          "Carbon footprint reduction",
-          "Green manufacturing"
+          "Enerji verimli tasarımlar",
+          "Geri dönüştürülebilir malzemeler",
+          "Karbon ayak izi azaltma",
+          "Yeşil üretim"
         ]
       },
       "rd": {
-        "title": "R&D Innovations",
-        "subtitle": "Advanced Engineering",
-        "description": "Cutting-edge research and development driving the future of transformer technology and efficiency.",
+        "title": "Ar-Ge İnovasyonları",
+        "subtitle": "Gelişmiş Mühendislik",
+        "description": "Transformatör teknolojisi ve verimliliğinin geleceğini yönlendiren ileri düzey araştırma ve geliştirme.",
         "features": [
-          "Advanced cooling systems",
-          "Noise reduction technology",
-          "Compact design solutions",
-          "Material optimization"
+          "Gelişmiş soğutma sistemleri",
+          "Gürültü azaltma teknolojisi",
+          "Kompakt tasarım çözümleri",
+          "Malzeme optimizasyonu"
         ]
       },
       "digital": {
-        "title": "Digital Integration",
-        "subtitle": "Connected Solutions",
-        "description": "Seamless digital integration with mobile applications and cloud-based monitoring systems.",
+        "title": "Dijital Entegrasyon",
+        "subtitle": "Bağlantılı Çözümler",
+        "description": "Mobil uygulamalar ve bulut tabanlı izleme sistemleriyle sorunsuz dijital entegrasyon.",
         "features": [
-          "Mobile monitoring apps",
-          "Cloud-based analytics",
-          "AI-powered optimization",
-          "Digital twin technology"
+          "Mobil izleme uygulamaları",
+          "Bulut tabanlı analitik",
+          "Yapay zeka destekli optimizasyon",
+          "Dijital ikiz teknolojisi"
         ]
       }
     },
     "tech_features": {
       "iot": {
-        "label": "IoT Connectivity",
-        "value": "24/7 Monitoring"
+        "label": "IoT Bağlantısı",
+        "value": "7/24 İzleme"
       },
       "ai": {
-        "label": "AI Analytics",
-        "value": "Predictive Intelligence"
+        "label": "Yapay Zeka Analitiği",
+        "value": "Kestirimci Zeka"
       },
       "cybersecurity": {
-        "label": "Cybersecurity",
-        "value": "Enterprise Grade"
+        "label": "Siber Güvenlik",
+        "value": "Kurumsal Seviye"
       },
       "performance": {
-        "label": "Performance",
-        "value": "99.9% Uptime"
+        "label": "Performans",
+        "value": "%99.9 Çalışma Süresi"
       }
     }
   },
   "certificates": {
-    "section_title": "Our Commitment to Quality",
-    "section_subtitle": "Certified excellence, globally recognized standards",
+    "section_title": "Kaliteye Olan Bağlılığımız",
+    "section_subtitle": "Sertifikalı mükemmellik, küresel olarak tanınan standartlar",
     "filters": {
-      "all": "All",
-      "quality": "Quality",
-      "compliance": "Compliance",
-      "international": "International"
+      "all": "Tümü",
+      "quality": "Kalite",
+      "compliance": "Uygunluk",
+      "international": "Uluslararası"
     },
     "modal": {
-      "issuer": "Issuer",
-      "valid_until": "Valid Until",
-      "download": "Download Certificate",
-      "verify": "Verify Online"
+      "issuer": "Veren Kurum",
+      "valid_until": "Geçerlilik Tarihi",
+      "download": "Sertifikayı İndir",
+      "verify": "Online Doğrula"
     },
     "cards": {
       "iso9001": {
         "title": "ISO 9001:2015",
-        "subtitle": "Quality Management System",
-        "description": "International standard for quality management systems, ensuring consistent quality in our manufacturing processes.",
-        "issuer": "International Organization for Standardization"
+        "subtitle": "Kalite Yönetim Sistemi",
+        "description": "Üretim süreçlerimizde tutarlı kaliteyi sağlayan uluslararası kalite yönetim sistemi standardı.",
+        "issuer": "Uluslararası Standardizasyon Örgütü"
       },
       "ce": {
-        "title": "CE Conformity",
-        "subtitle": "European Conformity",
-        "description": "Certification ensuring our products meet EU safety, health, and environmental protection standards.",
-        "issuer": "European Union"
+        "title": "CE Uygunluğu",
+        "subtitle": "Avrupa Uygunluğu",
+        "description": "Ürünlerimizin AB güvenlik, sağlık ve çevre koruma standartlarını karşıladığını garanti eden sertifika.",
+        "issuer": "Avrupa Birliği"
       },
       "iec": {
         "title": "IEC 60076",
-        "subtitle": "Power Transformer Standards",
-        "description": "Compliance with international standards for power transformers, ensuring reliability and performance.",
-        "issuer": "International Electrotechnical Commission"
+        "subtitle": "Güç Transformatörü Standartları",
+        "description": "Güç transformatörleri için uluslararası standartlara uygunluk, güvenilirlik ve performans sağlar.",
+        "issuer": "Uluslararası Elektroteknik Komisyonu"
       },
       "rohs": {
-        "title": "RoHS Compliance",
-        "subtitle": "Restriction of Hazardous Substances",
-        "description": "Compliance with the EU directive that restricts the use of hazardous substances in our products.",
-        "issuer": "European Union"
+        "title": "RoHS Uygunluğu",
+        "subtitle": "Tehlikeli Madde Kısıtlaması",
+        "description": "Ürünlerimizde tehlikeli maddelerin kullanımını kısıtlayan AB direktifine uygunluk.",
+        "issuer": "Avrupa Birliği"
       },
       "tse": {
-        "title": "TSE Certificate",
-        "subtitle": "Turkish Standards Institution",
-        "description": "National certification verifying our products' compliance with Turkish Standards.",
-        "issuer": "Turkish Standards Institution"
+        "title": "TSE Belgesi",
+        "subtitle": "Türk Standartları Enstitüsü",
+        "description": "Ürünlerimizin Türk Standartlarına uygunluğunu belgeleyen ulusal sertifika.",
+        "issuer": "Türk Standartları Enstitüsü"
       }
     }
   },
   "team": {
-    "section_title": "Meet Our Engineering Excellence Team",
-    "section_subtitle": "World-class engineers and specialists driving innovation in transformer technology",
+    "section_title": "Mühendislik Mükemmellik Ekibimizle Tanışın",
+    "section_subtitle": "Transformatör teknolojisinde yeniliği yönlendiren birinci sınıf mühendisler ve uzmanlar",
     "details": {
-      "experience": "Experience",
-      "education": "Education",
-      "specialization": "Specialization",
-      "about": "About",
-      "achievements": "Key Achievements"
+      "experience": "Deneyim",
+      "education": "Eğitim",
+      "specialization": "Uzmanlık",
+      "about": "Hakkında",
+      "achievements": "Başarılar"
     },
     "navigation": {
-      "previous": "Previous",
-      "next": "Next"
+      "previous": "Önceki",
+      "next": "Sonraki"
     },
     "members": {
       "mehmet": {
         "name": "Dr. Mehmet Yılmaz",
-        "position": "Chief Technology Officer",
-        "department": "Engineering & R&D",
-        "education": "PhD in Electrical Engineering, ITU",
-        "specialization": "Power Systems & Transformer Design",
-        "bio": "Leading our technical innovation with extensive experience in power transformer design and advanced cooling technologies.",
+        "position": "Teknoloji Direktörü (CTO)",
+        "department": "Mühendislik & Ar-Ge",
+        "education": "Doktora, Elektrik Müh., İTÜ",
+        "specialization": "Güç Sistemleri & Transformatör Tasarımı",
+        "bio": "Güç transformatörü tasarımı ve gelişmiş soğutma teknolojilerindeki kapsamlı deneyimiyle teknik yeniliklerimize liderlik ediyor.",
         "achievements": [
-          "50+ Published Research Papers",
-          "IEEE Senior Member",
-          "Patent Holder - Advanced Cooling Systems"
+          "50+ Yayınlanmış Araştırma Makalesi",
+          "IEEE Kıdemli Üyesi",
+          "Patent Sahibi - Gelişmiş Soğutma Sistemleri"
         ]
       },
       "sarah": {
-        "name": "Eng. Sarah Johnson",
-        "position": "Head of Quality Assurance",
-        "department": "Quality Control",
-        "education": "MSc in Materials Engineering, MIT",
-        "specialization": "Quality Systems & Testing Protocols",
-        "bio": "Ensuring the highest quality standards through rigorous testing protocols and continuous improvement initiatives.",
+        "name": "Müh. Sarah Johnson",
+        "position": "Kalite Güvence Müdürü",
+        "department": "Kalite Kontrol",
+        "education": "Yüksek Lisans, Malzeme Müh., MIT",
+        "specialization": "Kalite Sistemleri & Test Protokolleri",
+        "bio": "Katı test protokolleri ve sürekli iyileştirme girişimleri yoluyla en yüksek kalite standartlarını sağlıyor.",
         "achievements": [
-          "ISO 9001 Lead Auditor",
-          "Six Sigma Black Belt",
-          "Quality Excellence Award 2023"
+          "ISO 9001 Baş Denetçisi",
+          "Altı Sigma Kara Kuşak",
+          "Kalite Mükemmellik Ödülü 2023"
         ]
       },
       "ahmed": {
-        "name": "Eng. Ahmed Al-Rashid",
-        "position": "Senior Project Manager",
-        "department": "Project Management",
-        "education": "BSc in Industrial Engineering, AUB",
-        "specialization": "Large-Scale Project Delivery",
-        "bio": "Managing complex transformer projects from conception to delivery with exceptional attention to detail and timeline management.",
+        "name": "Müh. Ahmed Al-Rashid",
+        "position": "Kıdemli Proje Yöneticisi",
+        "department": "Proje Yönetimi",
+        "education": "Lisans, Endüstri Müh., AUB",
+        "specialization": "Büyük Ölçekli Proje Teslimatı",
+        "bio": "Karmaşık transformatör projelerini, detaylara ve zaman çizelgesine olağanüstü dikkat göstererek konseptten teslimata kadar yönetiyor.",
         "achievements": [
-          "PMP Certified",
-          "100+ Successful Projects",
-          "On-Time Delivery Rate: 98%"
+          "PMP Sertifikalı",
+          "100+ Başarılı Proje",
+          "Zamanında Teslimat Oranı: %98"
         ]
       },
       "elena": {
         "name": "Dr. Elena Petrov",
-        "position": "R&D Director",
-        "department": "Research & Development",
-        "education": "PhD in Power Electronics, TU Delft",
-        "specialization": "Smart Grid Technologies",
-        "bio": "Driving innovation in smart transformer technologies and sustainable energy solutions for the future.",
+        "position": "Ar-Ge Direktörü",
+        "department": "Araştırma & Geliştirme",
+        "education": "Doktora, Güç Elektroniği, TU Delft",
+        "specialization": "Akıllı Şebeke Teknolojileri",
+        "bio": "Gelecek için akıllı transformatör teknolojileri ve sürdürülebilir enerji çözümlerinde yeniliği teşvik ediyor.",
         "achievements": [
-          "30+ International Patents",
-          "Innovation Award Winner",
-          "Smart Grid Pioneer"
+          "30+ Uluslararası Patent",
+          "İnovasyon Ödülü Sahibi",
+          "Akıllı Şebeke Öncüsü"
         ]
       }
     }
   },
   "downloads": {
-    "section_title": "Download Center",
-    "section_subtitle": "Access technical documentation, product catalogs, certificates, and multimedia resources",
-    "search_placeholder": "Search documents...",
+    "section_title": "İndirme Merkezi",
+    "section_subtitle": "Teknik dokümantasyon, ürün katalogları, sertifikalar ve multimedya kaynaklarına erişin",
+    "search_placeholder": "Dokümanları ara...",
     "filters": {
-      "all": "All Documents",
-      "catalogs": "Product Catalogs",
-      "technical": "Technical Specs",
-      "certificates": "Certificates",
-      "case_studies": "Case Studies",
-      "videos": "Videos"
+      "all": "Tüm Dokümanlar",
+      "catalogs": "Ürün Katalogları",
+      "technical": "Teknik Özellikler",
+      "certificates": "Sertifikalar",
+      "case_studies": "Vaka Analizleri",
+      "videos": "Videolar"
     },
     "card": {
-      "featured": "Featured",
-      "size": "Size",
-      "pages": "Pages",
-      "duration": "Duration",
-      "downloads": "Downloads",
-      "download_button": "Download"
+      "featured": "Öne Çıkan",
+      "size": "Boyut",
+      "pages": "Sayfa",
+      "duration": "Süre",
+      "downloads": "İndirme",
+      "download_button": "İndir"
     },
     "no_results": {
-      "title": "No documents found",
-      "subtitle": "Try adjusting your search terms or filters"
+      "title": "Doküman bulunamadı",
+      "subtitle": "Arama terimlerinizi veya filtrelerinizi değiştirmeyi deneyin"
     },
     "modal": {
-      "preview": "Document preview will be available here",
-      "download_button": "Download as {type}"
+      "preview": "Doküman önizlemesi burada mevcut olacak",
+      "download_button": "{type} Olarak İndir"
     },
     "documents": {
       "catalog_2024": {
-        "title": "Complete Product Catalog 2024",
-        "description": "Comprehensive catalog featuring our full range of transformer solutions"
+        "title": "Tam Ürün Kataloğu 2024",
+        "description": "Tüm transformatör çözümlerimizi içeren kapsamlı katalog"
       },
       "tech_specs": {
-        "title": "Power Transformer Technical Specifications",
-        "description": "Detailed technical specifications for power transformers 1-100 MVA"
+        "title": "Güç Transformatörü Teknik Özellikleri",
+        "description": "1-100 MVA güç transformatörleri için detaylı teknik özellikler"
       },
       "iso_cert": {
-        "title": "ISO 9001:2015 Certificate",
-        "description": "Quality management system certification document"
+        "title": "ISO 9001:2015 Sertifikası",
+        "description": "Kalite yönetim sistemi sertifika dokümanı"
       },
       "mfg_video": {
-        "title": "Manufacturing Process Overview",
-        "description": "Video showcasing our advanced manufacturing capabilities"
+        "title": "Üretim Sürecine Genel Bakış",
+        "description": "Gelişmiş üretim kabiliyetlerimizi sergileyen video"
       },
       "case_study": {
-        "title": "Smart Grid Integration Case Study",
-        "description": "Real-world implementation of smart transformer technology"
+        "title": "Akıllı Şebeke Entegrasyonu Vaka Analizi",
+        "description": "Akıllı transformatör teknolojisinin gerçek dünya uygulaması"
       },
       "install_guide": {
-        "title": "Installation Guidelines",
-        "description": "Step-by-step installation and commissioning procedures"
+        "title": "Kurulum Yönergeleri",
+        "description": "Adım adım kurulum ve devreye alma prosedürleri"
       }
     }
   },
   "contact": {
-    "section_title": "Get In Touch",
-    "section_subtitle": "Ready to power your project? Contact our experts for customized transformer solutions",
+    "section_title": "İletişime Geçin",
+    "section_subtitle": "Projenize güç vermeye hazır mısınız? Özelleştirilmiş transformatör çözümleri için uzmanlarımızla iletişime geçin",
     "form": {
-      "title": "Request a Quote",
-      "subtitle": "Get customized solutions for your project",
+      "title": "Teklif Talep Edin",
+      "subtitle": "Projeniz için özelleştirilmiş çözümler alın",
       "labels": {
-        "full_name": "Full Name *",
-        "company": "Company *",
-        "email": "Email Address *",
-        "phone": "Phone Number",
-        "project_type": "Project Type *",
-        "budget": "Budget Range",
-        "timeline": "Timeline",
-        "details": "Project Details *"
+        "full_name": "Ad Soyad *",
+        "company": "Şirket *",
+        "email": "E-posta Adresi *",
+        "phone": "Telefon Numarası",
+        "project_type": "Proje Tipi *",
+        "budget": "Bütçe Aralığı",
+        "timeline": "Zaman Çizelgesi",
+        "details": "Proje Detayları *"
       },
       "placeholders": {
-        "full_name": "Your full name",
-        "company": "Your company name",
-        "email": "your@email.com",
+        "full_name": "Adınız ve soyadınız",
+        "company": "Şirketinizin adı",
+        "email": "eposta@adresiniz.com",
         "phone": "+90 xxx xxx xx xx",
-        "details": "Please describe your project requirements, specifications, power ratings, environmental conditions, and any other relevant details..."
+        "details": "Lütfen proje gereksinimlerinizi, teknik özellikleri, güç değerlerini, çevresel koşulları ve diğer ilgili detayları açıklayın..."
       },
       "selects": {
-        "project_type": "Select project type",
-        "budget": "Select budget range",
-        "timeline": "Select timeline"
+        "project_type": "Proje tipi seçin",
+        "budget": "Bütçe aralığı seçin",
+        "timeline": "Zaman çizelgesi seçin"
       },
-      "submit_button": "Send Quote Request"
+      "submit_button": "Teklif Talebi Gönder"
     },
     "quick_contact": {
-      "title": "Quick Contact",
-      "phone": "Phone",
-      "email": "Email",
-      "location": "Location",
+      "title": "Hızlı İletişim",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "location": "Konum",
       "whatsapp": "WhatsApp",
-      "whatsapp_value": "Direct Line Available"
+      "whatsapp_value": "Direkt Hat Mevcut"
     },
     "hours": {
-      "title": "Business Hours",
-      "weekdays": "Monday - Friday",
-      "saturday": "Saturday",
-      "sunday": "Sunday",
-      "sunday_value": "Emergency Only"
+      "title": "Çalışma Saatleri",
+      "weekdays": "Pazartesi - Cuma",
+      "saturday": "Cumartesi",
+      "sunday": "Pazar",
+      "sunday_value": "Sadece Acil Durumlar"
     },
     "location": {
-      "title": "Our Location",
-      "map_text": "Interactive map coming soon"
+      "title": "Konumumuz",
+      "map_text": "Etkileşimli harita yakında"
     },
     "project_types": [
-      "Power Transformers (1-10 MVA)",
-      "Power Transformers (10-50 MVA)",
-      "Power Transformers (50+ MVA)",
-      "Distribution Transformers",
-      "Industrial Solutions",
-      "Renewable Energy Integration",
-      "Smart Grid Solutions",
-      "Maintenance Services",
-      "Technical Consultancy",
-      "Custom Requirements"
+      "Güç Transformatörleri (1-10 MVA)",
+      "Güç Transformatörleri (10-50 MVA)",
+      "Güç Transformatörleri (50+ MVA)",
+      "Dağıtım Transformatörleri",
+      "Endüstriyel Çözümler",
+      "Yenilenebilir Enerji Entegrasyonu",
+      "Akıllı Şebeke Çözümleri",
+      "Bakım Hizmetleri",
+      "Teknik Danışmanlık",
+      "Özel Gereksinimler"
     ],
     "budget_ranges": [
-      "Under $50,000",
-      "$50,000 - $100,000",
-      "$100,000 - $500,000",
-      "$500,000 - $1,000,000",
-      "$1,000,000 - $5,000,000",
-      "Over $5,000,000",
-      "Prefer not to specify"
+      "50.000 $'dan az",
+      "50.000 $ - 100.000 $",
+      "100.000 $ - 500.000 $",
+      "500.000 $ - 1.000.000 $",
+      "1.000.000 $ - 5.000.000 $",
+      "5.000.000 $'dan fazla",
+      "Belirtmemeyi tercih ederim"
     ],
     "timeline_options": [
-      "Urgent (Within 1 month)",
-      "Short-term (1-3 months)",
-      "Medium-term (3-6 months)",
-      "Long-term (6+ months)",
-      "Planning phase"
+      "Acil (1 ay içinde)",
+      "Kısa vadeli (1-3 ay)",
+      "Orta vadeli (3-6 ay)",
+      "Uzun vadeli (6+ ay)",
+      "Planlama aşamasında"
     ]
   },
   "interactive": {
     "roi": {
-      "title": "Return on Investment Calculator",
-      "current_cost": "Current Annual Energy Cost ($)",
-      "current_efficiency": "Current Efficiency (%)",
-      "target_efficiency": "Target Efficiency (%)",
-      "potential_roi": "Potential Annual ROI"
+      "title": "Yatırım Geri Dönüşü Hesaplayıcı",
+      "current_cost": "Mevcut Yıllık Enerji Maliyeti ($)",
+      "current_efficiency": "Mevcut Verimlilik (%)",
+      "target_efficiency": "Hedef Verimlilik (%)",
+      "potential_roi": "Potansiyel Yıllık Yatırım Geri Dönüşü"
     },
     "power_monitor": {
-      "title": "Live Power Monitor",
-      "power_load": "Power Load",
-      "efficiency": "Efficiency",
-      "status": "System Status: Optimal Performance"
+      "title": "Canlı Güç Monitörü",
+      "power_load": "Güç Yükü",
+      "efficiency": "Verimlilik",
+      "status": "Sistem Durumu: Optimal Performans"
     },
     "timeline": {
-      "title": "Project Timeline",
+      "title": "Proje Zaman Çizelgesi",
       "phases": {
         "consultation": {
-          "title": "Consultation & Design",
-          "description": "Initial assessment, custom design, and technical specifications"
+          "title": "Danışmanlık & Tasarım",
+          "description": "İlk değerlendirme, özel tasarım ve teknik şartnameler"
         },
         "manufacturing": {
-          "title": "Manufacturing",
-          "description": "Precision manufacturing with quality control at every step"
+          "title": "İmalat",
+          "description": "Her adımda kalite kontrol ile hassas üretim"
         },
         "testing": {
-          "title": "Testing & QA",
-          "description": "Comprehensive testing and certification processes"
+          "title": "Test & Kalite Güvencesi",
+          "description": "Kapsamlı test ve sertifikasyon süreçleri"
         },
         "installation": {
-          "title": "Installation & Commissioning",
-          "description": "On-site installation, testing, and system deployment"
+          "title": "Kurulum & Devreye Alma",
+          "description": "Yerinde kurulum, test ve sistemin devreye alınması"
         }
       }
     },
     "quick_actions": {
-      "video_call": "Schedule a Video Call",
-      "instant_quote": "Get Instant Quote",
-      "download_catalog": "Download Catalog",
-      "call_expert": "Call an Expert"
+      "video_call": "Görüntülü Görüşme Planla",
+      "instant_quote": "Anında Teklif Al",
+      "download_catalog": "Katalog İndir",
+      "call_expert": "Uzmanı Ara"
     }
   },
   "footer": {
-    "tagline": "Excellence in Manufacturing",
-    "description": "With over 20 years of experience in core transformer manufacturing, we deliver innovative energy solutions from Istanbul to the world, setting new standards in industrial excellence.",
-    "quick_links_title": "Quick Links",
-    "services_title": "Our Services",
-    "copyright": "© 2024 G-Coresteel. All rights reserved.",
+    "tagline": "İmalatta Mükemmellik",
+    "description": "Nüve transformatör imalatında 20 yılı aşkın tecrübemizle, endüstriyel mükemmellikte yeni standartlar belirleyerek İstanbul'dan dünyaya yenilikçi enerji çözümleri sunuyoruz.",
+    "quick_links_title": "Hızlı Bağlantılar",
+    "services_title": "Hizmetlerimiz",
+    "copyright": "© 2024 G-Coresteel. Tüm hakları saklıdır.",
     "links": {
-      "home": "Home",
-      "about": "About Us",
-      "services": "Services",
-      "projects": "Projects",
-      "core_transformers": "Core Transformers",
-      "industrial_solutions": "Industrial Solutions",
-      "technical_consultancy": "Technical Consultancy",
-      "maintenance_services": "Maintenance Services"
+      "home": "Ana Sayfa",
+      "about": "Hakkımızda",
+      "services": "Hizmetler",
+      "projects": "Projeler",
+      "core_transformers": "Nüve Transformatörler",
+      "industrial_solutions": "Endüstriyel Çözümler",
+      "technical_consultancy": "Teknik Danışmanlık",
+      "maintenance_services": "Bakım Hizmetleri"
     }
   },
   "hero": {
-    "title_part1": "SHAPING THE",
-    "title_part2": "FUTURE OF ENERGY",
-    "subtitle": "With over 20 years of experience in core transformer manufacturing, we deliver innovative energy solutions from Istanbul to the world.",
-    "button_primary": "EXPLORE OUR PROJECTS",
-    "button_secondary": "GET A QUOTE",
-    "scroll_text": "Scroll to explore",
+    "title_part1": "ENERJİNİN GELECEĞİNİ",
+    "title_part2": "ŞEKİLLENDİRİYORUZ",
+    "subtitle": "Nüve transformatör imalatındaki 20 yılı aşkın tecrübemizle, İstanbul'dan dünyaya yenilikçi enerji çözümleri sunuyoruz.",
+    "button_primary": "PROJELERİMİZİ KEŞFEDİN",
+    "button_secondary": "TEKLİF ALIN",
+    "scroll_text": "Keşfetmek için kaydırın",
     "stats": {
-      "projects": "Successful Projects",
-      "collaborations": "Industry Collaborations",
-      "satisfaction": "Customer Satisfaction",
-      "experience": "Years of Experience"
+      "projects": "Başarılı Proje",
+      "collaborations": "Sektör İşbirliği",
+      "satisfaction": "Müşteri Memnuniyeti",
+      "experience": "Yıllık Tecrübe"
     }
   },
   "header": {
-    "tagline": "Excellence in Manufacturing",
-    "get_quote_button": "Get Quote",
+    "tagline": "İmalatta Mükemmellik",
+    "get_quote_button": "Teklif Al",
     "nav": {
-      "home": "Home",
-      "about": "About Us",
-      "services": "Services",
-      "projects": "Projects",
-      "innovation": "Innovation",
-      "contact": "Contact"
+      "home": "Ana Sayfa",
+      "about": "Hakkımızda",
+      "services": "Hizmetler",
+      "projects": "Projeler",
+      "innovation": "İnovasyon",
+      "contact": "İletişim"
     }
   }
 }
