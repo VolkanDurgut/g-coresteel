@@ -11,10 +11,10 @@ import {
   ChevronRight,
   CheckCircle
 } from 'lucide-react';
-import { useTranslation } from 'react-i18next'; // Hook'u import et
+import { useTranslation } from 'react-i18next';
 
 const Services: React.FC = () => {
-  const { t } = useTranslation(); // t fonksiyonunu kullanıma hazırla
+  const { t } = useTranslation();
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1
@@ -22,7 +22,6 @@ const Services: React.FC = () => {
 
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
 
-  // Servis verilerini çeviri anahtarları ile yeniden tanımla
   const serviceKeys = ['manufacturing', 'industrial', 'consultancy', 'maintenance', 'quality', 'management'];
   const serviceIcons = [Settings, Zap, Users, Wrench, Award, Briefcase];
   const serviceColors = [
@@ -68,7 +67,7 @@ const Services: React.FC = () => {
             {serviceKeys.map((key, index) => {
               const Icon = serviceIcons[index];
               const color = serviceColors[index];
-              const features = [1, 2, 3, 4].map(i => t(`services.cards.${key}.features.${i-1}`));
+              const features = t(`services.cards.${key}.features`, { returnObjects: true }) as Array<string>;
 
               return (
               <motion.div
@@ -148,8 +147,10 @@ const Services: React.FC = () => {
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ delay: 1.5 }}
           >
-            <motion.button
-              className="bg-gradient-to-r from-secondary-600 to-secondary-500 text-white px-12 py-4 rounded-lg font-inter font-bold text-lg hover:shadow-xl transition-all duration-300 group"
+            {/* Butonu 'a' etiketine çevirip href ekliyoruz */}
+            <motion.a
+              href="#contact"
+              className="bg-gradient-to-r from-secondary-600 to-secondary-500 text-white px-12 py-4 rounded-lg font-inter font-bold text-lg hover:shadow-xl transition-all duration-300 group inline-block"
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -161,7 +162,7 @@ const Services: React.FC = () => {
               >
                 →
               </motion.span>
-            </motion.button>
+            </motion.a>
           </motion.div>
         </div>
       </div>
